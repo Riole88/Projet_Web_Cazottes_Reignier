@@ -1,0 +1,27 @@
+@import 'variables';
+@import 'mixins';
+
+html, body {
+  background: $background-color;
+  color: $primary-color;
+  font-family: $font-base;
+}
+
+/* Grille de base pour la page d'accueil */
+#page {
+  @include respond-up(tablet) { padding: $spacing-lg; }
+}
+
+/* Exemple d'utilisation grid + flex (placeholder, à affiner) */
+#entete {
+  @include flex-center(row, $spacing-md);
+  justify-content: space-between;
+}
+
+.labyrinthe {
+  @include grid(12, $spacing-md);
+  @include respond-up(mobile) { @include grid(12, $spacing-md); }
+  @include respond-up(tablet) { @include grid(12, $spacing-md); }
+  @include respond-up(desktop) { @include grid(12, $spacing-lg); }
+}
+

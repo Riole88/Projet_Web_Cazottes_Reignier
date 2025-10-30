@@ -1,0 +1,23 @@
+@mixin respond-up($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (min-width: $bp-mobile) { @content; }
+  } @else if $breakpoint == tablet {
+    @media (min-width: $bp-tablet) { @content; }
+  } @else if $breakpoint == desktop {
+    @media (min-width: $bp-desktop) { @content; }
+  }
+}
+
+@mixin grid($columns, $gap: $spacing-md) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: $gap;
+}
+
+@mixin flex-center($direction: row, $gap: $spacing-sm) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  gap: $gap;
+}
+
