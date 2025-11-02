@@ -1,3 +1,5 @@
+@import 'variables';
+
 @mixin respond-up($breakpoint) {
   @if $breakpoint == mobile {
     @media (min-width: $bp-mobile) { @content; }
