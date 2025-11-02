@@ -1,0 +1,61 @@
+@import 'variables';
+@import 'mixins-flex';
+@import 'mixins-grid';
+@import 'mixins-responsive';
+@import 'layout';
+@import 'header';
+@import 'sections';
+@import 'article';
+
+.flex {
+  @include flex();
+  
+  &-center {
+    @include flex-center();
+  }
+  
+  &-between {
+    @include flex-between();
+  }
+  
+  &-column {
+    @include flex-column();
+  }
+}
+
+.grid {
+  @include grid();
+  
+  &-2 {
+    @include grid(2);
+  }
+  
+  &-3 {
+    @include grid(3);
+  }
+  
+  &-4 {
+    @include grid(4);
+  }
+  
+  &-responsive {
+    @include grid-responsive();
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.mt-sm { margin-top: $spacing-sm; }
+.mt-md { margin-top: $spacing-md; }
+.mt-lg { margin-top: $spacing-lg; }
+
+.mb-sm { margin-bottom: $spacing-sm; }
+.mb-md { margin-bottom: $spacing-md; }
+.mb-lg { margin-bottom: $spacing-lg; }
+
+.p-sm { padding: $spacing-sm; }
+.p-md { padding: $spacing-md; }
+.p-lg { padding: $spacing-lg; }
+

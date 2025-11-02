@@ -8,6 +8,12 @@
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   > * {
     max-width: 100%;
@@ -16,9 +22,15 @@
 }
 
 .lovus {
-  margin: $spacing-xl 0;
+  margin: $spacing-xl auto;
   width: 100%;
   max-width: 100%;
+  padding: 0 $spacing-md;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+    padding: 0 $spacing-md;
+  }
   
   .nada {
     width: 100%;
@@ -71,9 +83,13 @@
 .suivre.horizon {
   border-top: 1px solid $color-border;
   padding: $spacing-lg $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
   width: 100%;
   max-width: 100%;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   .decale {
     width: 100%;
@@ -143,9 +159,13 @@
 .carto.horizon {
   border-top: 1px solid $color-border;
   padding: $spacing-lg $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
   width: 100%;
   max-width: 100%;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   .decale {
     width: 100%;
@@ -228,9 +248,13 @@
 .horizon.mdv {
   border-top: 1px solid $color-border;
   padding: $spacing-lg $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
   width: 100%;
   max-width: 100%;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   .decale {
     width: 100%;
@@ -312,9 +336,13 @@
 .livres.horizon {
   border-top: 1px solid $color-border;
   padding: $spacing-lg $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
   width: 100%;
   max-width: 100%;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   .decale {
     width: 100%;
@@ -401,9 +429,13 @@
 .horizon.blogs {
   border-top: 1px solid $color-border;
   padding: $spacing-lg $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
   width: 100%;
   max-width: 100%;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   .decale {
     width: 100%;
@@ -495,9 +527,13 @@
 .horizon.archives {
   border-top: 1px solid $color-border;
   padding: $spacing-lg $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
   width: 100%;
   max-width: 100%;
+  
+  @include respond-to(desktop) {
+    max-width: $bp-large;
+  }
   
   .decale {
     width: 100%;
