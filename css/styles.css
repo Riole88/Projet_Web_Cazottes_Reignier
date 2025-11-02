@@ -10653,5 +10653,565 @@ a.pswp__share--facebook:before {
     float: right;
   }
 }
+@media (max-width: 839px) {
+  #page {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto 30px auto;
+    box-sizing: border-box;
+  }
+  #entete {
+    padding-bottom: 20px;
+  }
+  .contenu-principal {
+    margin: 0 15px 30px 15px;
+  }
+  .decale {
+    margin: 0 15px;
+  }
+  .preentete {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .preentete .zizi .unemensuel {
+    margin: 5px 10px 0 10px;
+    height: auto;
+  }
+  .logodiplo {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto;
+  }
+  .labyrinthe {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services {
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+  }
+  .services #search {
+    float: none;
+    display: inline-block;
+  }
+  .services .slogan {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  ul#menu {
+    font-size: 1em;
+    flex-wrap: wrap;
+  }
+  ul#menu li {
+    flex: 1 1 auto;
+    min-width: 120px;
+  }
+  ul#menu li a {
+    padding: 6px 12px 10px 12px;
+    font-size: 0.95em;
+    white-space: nowrap;
+    text-align: center;
+  }
+  ul#menu li.sousgroupe {
+    flex-basis: 100%;
+  }
+  #formulaire_recherche input#recherche {
+    width: 250px;
+    font-size: 1em;
+  }
+  .cols_1, .cols_2, .cols_3, .cols_4, .cols_5, .cols_6 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .cols_4 > .unarticle .titraille {
+    width: 100%;
+  }
+  .cols_4 > .unarticle .intro {
+    width: 100%;
+  }
+  .bloc_vignette {
+    width: calc(50% - 10px);
+    margin: 0 10px 20px 0;
+  }
+  .bloc_vignette:nth-child(4n+1) {
+    clear: none;
+  }
+  .bloc_vignette:nth-child(4n) {
+    margin: 0 10px 20px 0;
+  }
+  .bloc_vignette:nth-child(2n) {
+    margin: 0 0 20px 0;
+  }
+  .bloc_vignette:nth-child(2n+1) {
+    clear: left;
+  }
+  .bloc_vignette.recent {
+    width: calc(50% - 15px);
+    margin: 0 15px 35px 0;
+  }
+  .bloc_vignette.recent:nth-child(3n) {
+    margin: 0 15px 35px 0;
+  }
+  .bloc_vignette.recent:nth-child(2n) {
+    margin: 0 0 35px 0;
+  }
+  .bloc_vignette.recent:nth-child(3n+1) {
+    clear: none;
+  }
+  .bloc_vignette.recent:nth-child(2n+1) {
+    clear: left;
+  }
+  .liste li .logo {
+    float: none;
+    margin: 0 0 15px 0;
+    max-width: 100%;
+  }
+  .liste li .intro {
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  .enlarge .unemensuel {
+    float: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  .texte {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  .texte p {
+    margin: 0.8em 0;
+  }
+  .texte blockquote {
+    margin: 1.5em 10% 1.5em 5%;
+  }
+  .ariane {
+    padding: 10px 0 12px 20px;
+    font-size: 1.3em;
+  }
+  .ariane .logo {
+    width: 35px;
+    margin: 0 10px 5px 0;
+  }
+  #pied {
+    margin: 20px -15px 0 -15px;
+    padding: 20px 0 25px 15px;
+  }
+  #pied .finger {
+    width: calc(50% - 15px);
+    margin-bottom: 20px;
+  }
+  .bandeautitre {
+    font-size: 1.1em;
+    padding: 8px 20px 12px 20px;
+  }
+  .bandeautitre .logo {
+    width: 180px;
+    margin: 4px 15px 0 0;
+  }
+  .voiraussi {
+    margin: 0 30px 40px 30px;
+    padding: 25px 30px 25px 30px;
+  }
+  .pagination {
+    font-size: 1.3em;
+    margin: 0 0 40px 0;
+  }
+  .navart {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .navart.avant {
+    float: none;
+    margin-right: 0;
+    text-align: left;
+  }
+  .navart.apres {
+    float: none;
+    margin-left: 0;
+    text-align: left;
+  }
+  #pagescol {
+    width: 100% !important;
+    max-width: 450px;
+    margin: 0 auto !important;
+  }
+  #pagescol a {
+    width: 50% !important;
+  }
+  .panel .mesinfos, .panel .formulaire_login, .panel .abo_oui, .panel .abo_non, .panel .notice, .panel .abo_inst {
+    margin: 0 auto 35px auto !important;
+    width: auto !important;
+    max-width: 500px !important;
+    float: none !important;
+  }
+  .panel h1 {
+    margin-left: 0;
+  }
+  .telecharger {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .telecharger .bloc_vignette a {
+    margin: 0;
+  }
+  .liste_vignettes.mega .bloc_vignette {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 479px) {
+  #page {
+    padding: 10px;
+    width: 100%;
+  }
+  #entete {
+    padding-bottom: 15px;
+  }
+  .contenu-principal {
+    margin: 0 10px 20px 10px;
+  }
+  .decale {
+    margin: 0 10px;
+  }
+  .preentete {
+    padding: 10px;
+  }
+  .preentete .zizi .unemensuel {
+    margin: 5px;
+    height: auto;
+  }
+  .preentete .zizi .unemensuel img {
+    width: 60px;
+  }
+  .preentete .zizi .dates_auteurs {
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  .preentete .commerce {
+    margin-top: 10px;
+  }
+  .preentete .commerce > a {
+    font-size: 0.85em;
+    padding: 4px 8px;
+    margin: 2px 5px;
+  }
+  .logodiplo {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px auto;
+  }
+  .services {
+    float: none;
+    margin: 15px 0 0 0;
+    text-align: center;
+    width: 100%;
+  }
+  .services #search {
+    float: none;
+    margin: 10px 0;
+  }
+  .services .slogan {
+    font-size: 0.9em;
+    margin-top: 8px;
+  }
+  ul#menu li {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  ul#menu li a {
+    padding: 8px 10px 10px 10px;
+    font-size: 0.9em;
+    display: block;
+    text-align: left;
+  }
+  #formulaire_recherche input#recherche {
+    width: calc(100% - 40px);
+    max-width: 180px;
+    font-size: 0.9em;
+  }
+  #formulaire_recherche input.submit {
+    width: 32px;
+    height: 32px;
+  }
+  .cols_1, .cols_2, .cols_3, .cols_4, .cols_5, .cols_6 {
+    width: 100%;
+  }
+  .bloc_vignette {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .bloc_vignette:nth-child(n) {
+    clear: none;
+    margin: 0 0 20px 0;
+  }
+  .bloc_vignette.recent {
+    width: 100%;
+    margin: 0 0 35px 0;
+  }
+  .bloc_vignette.recent:nth-child(n) {
+    clear: none;
+    margin: 0 0 35px 0;
+  }
+  .liste li .logo {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .liste li .intro {
+    font-size: 1em;
+    margin: 0 0 8px 0;
+  }
+  .enlarge .unemensuel {
+    float: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .enlarge .descriptif {
+    margin: 8px 0 25px 0 !important;
+  }
+  .texte {
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+  .texte p {
+    margin: 0.7em 0;
+  }
+  .texte blockquote {
+    margin: 1.5em 5%;
+    padding: 0 0 0 3%;
+  }
+  .texte h3 {
+    margin: 1.5em 0 0.8em 0;
+  }
+  h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+  }
+  h2 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+  }
+  h3 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  .ariane {
+    padding: 8px 0 12px 15px;
+    font-size: 1.2em;
+  }
+  .ariane .logo {
+    width: 30px;
+    margin: 0 8px 5px 0;
+  }
+  #pied {
+    margin: 15px -10px 0 -10px;
+    padding: 15px 0 20px 10px;
+  }
+  #pied .finger {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .bandeautitre {
+    font-size: 1em;
+    padding: 6px 15px 10px 15px;
+  }
+  .bandeautitre .logo {
+    width: 150px;
+    margin: 4px 10px 0 0;
+  }
+  .bandeautitre .logo img {
+    width: 300px;
+    height: 16px;
+  }
+  .bandeautitre .letitre {
+    max-width: 60%;
+  }
+  .voiraussi {
+    margin: 0 15px 30px 15px;
+    padding: 20px 20px 25px 20px;
+  }
+  .pagination {
+    font-size: 1.2em;
+    margin: 0 0 30px 0;
+  }
+  .bouton a, .bouton input, .bouton button {
+    font-size: 0.9em;
+    padding: 4px 8px;
+  }
+  .navart {
+    width: 100%;
+  }
+  .navart .fleche {
+    font-size: 4em;
+  }
+  .vieux .avant, .vieux .apres {
+    width: 100%;
+    float: none;
+    margin: 15px 0;
+  }
+  .vieux .avant .articleconnexe {
+    border-right: 0;
+    border-bottom: 1px dashed;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+  .vieux .apres .articleconnexe {
+    padding-left: 0;
+  }
+  #pagescol {
+    width: 100% !important;
+  }
+  #pagescol a {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 10px;
+  }
+  *[class*=page_connexion] #contenu .page_panel {
+    margin: 0 15px;
+  }
+  .page_mon_compte #contenu .page_panel {
+    margin: 0 15px;
+  }
+  .connexion {
+    float: none !important;
+    display: block;
+    margin: 10px 0;
+  }
+  .connexion.bouton a {
+    display: block !important;
+    margin: 5px 0 0 0 !important;
+    border-radius: 0 !important;
+    width: 100%;
+    text-align: center;
+  }
+  .panel h1 {
+    font-size: 2em !important;
+    margin-left: 0px !important;
+  }
+  .panel .mesinfos, .panel .formulaire_login, .panel .abo_oui, .panel .abo_non, .panel .notice, .panel .abo_inst {
+    margin: 0 15px 25px 15px !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  .formulaire_login input.text, .formulaire_login input[type=text], .formulaire_login input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .bloc-connexion .page_panel {
+    padding: 20px 15px 15px 15px;
+  }
+  .texte .infodiplo {
+    margin: 1.5em 15px 2em 15px;
+  }
+  .texte .infodiplo input[type=text] {
+    width: 100%;
+    margin-left: 0;
+  }
+  .texte .infodiplo label {
+    margin-left: 0;
+  }
+  .infodiplo input[type=text] {
+    width: 100%;
+  }
+  .infodiplo .formulaire_spip .boutons {
+    display: block;
+    text-align: right;
+    margin: 10px 0 0 0;
+  }
+  .infodiplo .formulaire_spip li {
+    margin: 0 0 15px 0;
+  }
+  .telecharger {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .telecharger .bloc_vignette .bloc_formats {
+    margin: 0;
+  }
+  #telecharger h3 {
+    margin: 0 0 20px 0;
+    display: block;
+  }
+  h2.avantbloc {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .abo_inst {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #paywall .abo_oui, #paywall .abo_non, #paywall .abo_pas_abo {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  #paywall .abo_eclair {
+    padding: 20px 15px;
+  }
+  .liste_vignettes.mega .bloc_vignette {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .liste.double .demi {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  .liste.double .demi.droite {
+    float: none;
+    border: 0;
+  }
+  .enune.liste li {
+    width: 100%;
+    float: none;
+    margin: 0 0 15px 0;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+  .promav .couvmav {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  .infoboite {
+    width: 100%;
+    float: none;
+    margin: 20px 0;
+  }
+  .alaune {
+    width: 100%;
+    float: none;
+    margin: 0 0 25px 0;
+  }
+}
+@media (min-width: 1200px) {
+  #page {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 840px) and (max-width: 1199px) {
+  .cols_1 {
+    width: calc(25% - 15px);
+  }
+  .cols_2 {
+    width: calc(50% - 15px);
+  }
+  .cols_3 {
+    width: calc(75% - 15px);
+  }
+  .cols_4 {
+    width: calc(100% - 15px);
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
