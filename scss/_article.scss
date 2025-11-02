@@ -1,4 +1,4 @@
-$color_1: #009;
+﻿$color_1: #009;
 $color_2: #900;
 $color_3: #060;
 $color_4: #333;
@@ -16,35 +16,37 @@ $color_15: #4D4D4D;
 $color_16: #be2e0d;
 $color_17: #666;
 $color_18: #fa3b0f;
-$color_19: #222;
-$color_20: #bbb;
-$color_21: #999;
-$color_22: #777;
-$color_23: #928d84;
-$color_24: #ccc;
-$color_25: #6b909e;
-$color_26: transparent;
-$color_27: #888;
-$color_28: #000;
-$color_29: #ddd;
-$color_30: #713122;
-$color_31: #be843c;
-$color_32: #aaa;
-$color_33: #e0aa69;
-$color_34: #2a7ba1;
-$color_35: #0a9075;
-$color_36: #245263;
-$color_37: #709cad;
-$color_38: #b00000;
-$color_39: red;
-$color_40: #CCC;
-$color_41: #FFF;
-$color_42: #CE272D;
-$color_43: #BBB;
-$color_44: #555;
-$color_45: #212121;
-$color_46: #363636;
-$color_47: #cd0a0a;
+$color_19: #ffbc36;
+$color_20: #222;
+$color_21: #bbb;
+$color_22: #999;
+$color_23: #e00;
+$color_24: #777;
+$color_25: #928d84;
+$color_26: #ccc;
+$color_27: #6b909e;
+$color_28: transparent;
+$color_29: #888;
+$color_30: #000;
+$color_31: #ddd;
+$color_32: #713122;
+$color_33: #be843c;
+$color_34: #aaa;
+$color_35: #e0aa69;
+$color_36: #2a7ba1;
+$color_37: #0a9075;
+$color_38: #245263;
+$color_39: #709cad;
+$color_40: #b00000;
+$color_41: red;
+$color_42: #CCC;
+$color_43: #FFF;
+$color_44: #CE272D;
+$color_45: #BBB;
+$color_46: #555;
+$color_47: #212121;
+$color_48: #363636;
+$color_49: #cd0a0a;
 $font-family_1: Garamond,Georgia,Times,serif;
 $font-family_2: Courier,"Courier New",monospace;
 $font-family_3: inherit;
@@ -151,124 +153,108 @@ $border-left-color_1: transparent;
 /* squelettes/cops.css */
 @font-face {
 	font-family: 'Walbaum';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlpro.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlpro.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlpro.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlpro.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlpro.ttf") format('truetype');
+	
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaum';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlproitalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlproitalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlproitalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlproitalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlproitalic.ttf") format('truetype');
+	
 	font-weight: 400;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaum';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobold.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobold.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobold.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobold.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobold.ttf") format('truetype');
+	
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaum';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobolditalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobolditalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobolditalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobolditalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaum10xlprobolditalic.ttf") format('truetype');
+	
 	font-weight: 700;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbook.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbook.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbook.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbook.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbook.ttf") format('truetype');
+	
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookitalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookitalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookitalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookitalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookitalic.ttf") format('truetype');
+	
 	font-weight: 400;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbold.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbold.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbold.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbold.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbold.ttf") format('truetype');
+	
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbolditalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbolditalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbolditalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbolditalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskbookbolditalic.ttf") format('truetype');
+	
 	font-weight: 700;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktext.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktext.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktext.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktext.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktext.ttf") format('truetype');
+	
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextitalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextitalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextitalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextitalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextitalic.ttf") format('truetype');
+	
 	font-weight: 500;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbold.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbold.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbold.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbold.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbold.ttf") format('truetype');
+	
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbolditalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbolditalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbolditalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbolditalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesktextbolditalic.ttf") format('truetype');
+	
 	font-weight: 800;
 	font-style: italic;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklight.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklight.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklight.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklight.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklight.ttf") format('truetype');
+	
 	font-weight: 100;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklightitalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklightitalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklightitalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklightitalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgrotesklightitalic.ttf") format('truetype');
+	
 	font-weight: 100;
 	font-style: italic;
 	font-display: swap;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblack.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblack.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblack.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblack.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblack.ttf") format('truetype');
+	
 	font-weight: 900;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Walbaumgrot';
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblackitalic.eot");
-	src: url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblackitalic.eot#iefix") format('embedded-opentype'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblackitalic.woff2") format('woff2'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblackitalic.woff") format('woff'),url("https://www.monde-diplomatique.fr/squelettes/peaulisses/walbaumgroteskblackitalic.ttf") format('truetype');
+	
 	font-weight: 900;
 	font-style: italic;
 	font-display: swap;
@@ -330,6 +316,26 @@ $border-left-color_1: transparent;
 /* plugins/pubs/pubs.css */
 /* plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/jquery.ui.core.css */
 /* plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/jquery.ui.theme.css */
+/*
+     FILE ARCHIVED ON 16:10:38 Oct 10, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:04:56 Nov 02, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.762
+  exclusion.robots: 0.03
+  exclusion.robots.policy: 0.013
+  esindex: 0.016
+  cdx.remote: 18.55
+  LoadShardBlock: 111.396 (3)
+  PetaboxLoader3.datanode: 125.032 (4)
+  load_resource: 493.528
+  PetaboxLoader3.resolve: 454.088
+*/
 hr.spip {
 	margin: 2em auto;
 	border: 0;
@@ -386,7 +392,7 @@ blockquote.spip_poesie {
 		margin-left: 3em;
 	}
 	mark {
-		color: $color_22 !important;
+		color: $color_24 !important;
 		margin: 1.2em 0 0 45px;
 		font-family: $font-family_4;
 		display: block;
@@ -396,7 +402,7 @@ blockquote.spip_poesie {
 	font-family: $font-family_2;
 	color: $color_1;
 	font-family: $font-family_2;
-	color: $color_23;
+	color: $color_25;
 }
 .spip_cadre {
 	font-family: $font-family_2;
@@ -567,7 +573,7 @@ img {
 	text-align: left;
 	margin: 0 auto 0 auto;
 	font-family: $font-family_4;
-	color: $color_27;
+	color: $color_29;
 	line-height: 1.3em;
 	max-width: 100%;
 }
@@ -965,7 +971,7 @@ table.spip_barre {
 	input.text {
 		width: 10em;
 		padding-left: 25px;
-		background: #FFF url("https://www.monde-diplomatique.fr/squelettes-dist/rechercher.gif") no-repeat left center;
+		background: #FFF  no-repeat left center;
 	}
 	label {
 		display: none;
@@ -997,7 +1003,7 @@ ul.choix_mots {
 	.editer_password {
 		.details {
 			display: block;
-			color: $color_20;
+			color: $color_21;
 			margin-top: 3px;
 			font-size: 0.9em;
 		}
@@ -1173,7 +1179,6 @@ ul.choix_mots {
 		color: $color_12;
 		border-color: $border-color_5;
 		background-color: $background-color_7;
-		background-image: url("https://www.monde-diplomatique.fr/plugins/zpip/img/box/message_erreur-24.png");
 	}
 }
 .success {
@@ -1188,7 +1193,6 @@ ul.choix_mots {
 		color: $color_11;
 		border-color: $border-color_4;
 		background-color: $background-color_6;
-		background-image: url("https://www.monde-diplomatique.fr/plugins/zpip/img/box/message_ok-24.png");
 	}
 }
 .notice {
@@ -1203,7 +1207,6 @@ ul.choix_mots {
 		color: $color_13;
 		border-color: $border-color_6;
 		background-color: $background-color_8;
-		background-image: url("https://www.monde-diplomatique.fr/plugins/zpip/img/box/message_notice-24.png");
 	}
 	margin: 0 0 10px 0;
 	.codef {
@@ -1337,7 +1340,7 @@ q {
 	}
 	&::before {
 		content: "→ ";
-		color: $color_24;
+		color: $color_26;
 	}
 }
 * {
@@ -1438,11 +1441,11 @@ h1 {
 	font-family: $font-family_5;
 	font-size: 3.5em;
 	line-height: 1.1em;
-	color: $color_19;
+	color: $color_20;
 	font-weight: normal;
 	margin: 0 0 15px 0;
 	span {
-		color: $color_20;
+		color: $color_21;
 	}
 }
 h2 {
@@ -1468,7 +1471,7 @@ h2 {
 	}
 	a {
 		span {
-			color: $color_21;
+			color: $color_22;
 			display: none;
 		}
 	}
@@ -1644,7 +1647,7 @@ a {
 		}
 	}
 	.articleconnexe {
-		color: $color_32;
+		color: $color_34;
 		line-height: 1.3em;
 	}
 	h2#leslivres {
@@ -1710,7 +1713,7 @@ cite {
 	display: block;
 	font-style: normal;
 	font-weight: 400;
-	color: $color_22;
+	color: $color_24;
 	margin-left: 18%;
 	text-align: right;
 	margin-top: 0.5em;
@@ -1804,7 +1807,7 @@ samp {
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
-	color: $color_23;
+	color: $color_25;
 	font-size: 1.3em;
 }
 small {
@@ -1887,7 +1890,7 @@ var {
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
-	color: $color_23;
+	color: $color_25;
 }
 b {
 	margin: 0;
@@ -2186,10 +2189,6 @@ figcaption {
 		font-family: $font-family_4;
 		font-weight: 500;
 	}
-	.notebox {
-		font-family: $font-family_4;
-		font-weight: 500;
-	}
 	.lettrine {
 		font-weight: normal;
 		font-family: $font-family_4;
@@ -2450,7 +2449,7 @@ h2.catego {
 	padding: 0 0 15px 0;
 	margin: 20px 0 25px 0;
 	span {
-		color: $color_20;
+		color: $color_21;
 	}
 }
 h2.avantbloc {
@@ -2458,7 +2457,7 @@ h2.avantbloc {
 	font-size: 1em;
 	clear: both;
 	font-size: 1.4em;
-	color: $color_37;
+	color: $color_39;
 	font-weight: 800;
 	line-height: 1.1em;
 }
@@ -2570,22 +2569,22 @@ h2.fat {
 			}
 		}
 		.pages {
-			color: $color_20;
+			color: $color_21;
 			span {
-				color: $color_29;
+				color: $color_31;
 				vertical-align: middle;
 				line-height: 0.5em;
 			}
 		}
 		.anime {
-			color: $color_29;
+			color: $color_31;
 			vertical-align: middle;
 			line-height: 0.5em;
-			color: $color_34;
+			color: $color_36;
 			font-weight: 700;
 		}
 		span.inedit {
-			color: $color_33;
+			color: $color_35;
 			vertical-align: baseline;
 			line-height: 1.1em;
 		}
@@ -2624,7 +2623,7 @@ h2.fat {
 		}
 		a.refmin {
 			.pages {
-				color: $color_21;
+				color: $color_22;
 				font-size: 1.2em;
 				vertical-align: bottom;
 			}
@@ -2637,7 +2636,7 @@ h2.fat {
 		font-size: 1.1em;
 	}
 	.apercu {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/oeilbleu-mini.png") no-repeat 0 66%;
+		background:  no-repeat 0 66%;
 		padding: 0 0 0 20px;
 		position: relative;
 		margin-left: 3px;
@@ -2717,7 +2716,7 @@ h2.fat {
 	li.chapodoss {
 		h3 {
 			.sep {
-				color: $color_24;
+				color: $color_26;
 				font-weight: 400;
 			}
 			font-family: $font-family_4;
@@ -2753,10 +2752,10 @@ h2.fat {
 		h2 {
 			margin: 0;
 			padding: 0;
-			color: $color_21;
+			color: $color_22;
 			margin: 0;
 			padding: 0;
-			color: $color_21;
+			color: $color_22;
 		}
 	}
 	li.h2 {
@@ -3088,7 +3087,7 @@ h4.fat {
 	}
 }
 mark {
-	color: $color_22;
+	color: $color_24;
 	background: transparent;
 	i {
 		font-family: $font-family_5;
@@ -3209,7 +3208,7 @@ optgroup {
 	}
 }
 span.puce {
-	color: $color_24;
+	color: $color_26;
 	vertical-align: middle;
 	line-height: 1em;
 	margin-right: 3px;
@@ -3246,7 +3245,7 @@ span.puce {
 		margin: 30px 0 0 0;
 		padding: 7px 0 0 0;
 		font-size: 1.25em;
-		color: $color_21;
+		color: $color_22;
 		display: block;
 		text-align: center;
 		border-top: 1px solid #bbb;
@@ -3316,7 +3315,7 @@ span.puce {
 		margin: 30px 0 0 0;
 		padding: 7px 0 0 0;
 		font-size: 1.25em;
-		color: $color_21;
+		color: $color_22;
 		display: block;
 		text-align: center;
 		border-top: 1px solid #bbb;
@@ -3389,37 +3388,6 @@ span.puce {
 		}
 	}
 }
-.notebox {
-	position: fixed;
-	background: #fff;
-	border-top: 1px solid #ccc;
-	padding: 0;
-	margin: 0;
-	font-family: $font-family_5;
-	font-size: 1.08em;
-	z-index: 30;
-	width: 890px;
-	bottom: -1px;
-	max-height: 60%;
-	div {
-		display: none;
-	}
-	div.visible {
-		display: block;
-	}
-	p {
-		padding-left: 1.8em;
-		text-indent: -1.8em;
-		margin: 0.8em 0 0.8em 0;
-	}
-	a.spip_note {
-		color: $color_4;
-		cursor: default;
-	}
-}
-.notebox.plein {
-	padding: 0.4em 0 1em 0;
-}
 .mot-lettrine {
 	-moz-font-feature-settings: 'smcp';
 	-webkit-font-feature-settings: 'smcp';
@@ -3434,7 +3402,7 @@ span.puce {
 	font-weight: 800;
 	line-height: 1em;
 	display: inline-block;
-	color: $color_20;
+	color: $color_21;
 	float: left;
 	margin: -8px 22px 5px -25px;
 	min-width: 0.4em;
@@ -3507,7 +3475,7 @@ span.exergue {
 	}
 }
 .dates_auteurs {
-	color: $color_21;
+	color: $color_22;
 	font-family: $font-family_4;
 	-moz-font-feature-settings: 'smcp';
 	-webkit-font-feature-settings: 'smcp';
@@ -3532,7 +3500,7 @@ span.exergue {
 		color: $color_17;
 		text-transform: lowercase;
 		span {
-			color: $color_20;
+			color: $color_21;
 			font-size: 0.8em;
 		}
 	}
@@ -3547,11 +3515,11 @@ span.exergue {
 		}
 	}
 	span.et {
-		color: $color_21;
+		color: $color_22;
 	}
 }
 .lesauteurs {
-	color: $color_21;
+	color: $color_22;
 	font-size: 1.08em;
 	margin: 20px 160px 20px 0;
 	text-align: right;
@@ -3585,7 +3553,7 @@ span.exergue {
 		font-feature-settings: 'smcp';
 	}
 	span.et {
-		color: $color_21;
+		color: $color_22;
 	}
 }
 .blogs {
@@ -3623,7 +3591,7 @@ span.exergue {
 	.voiraussi.dossierweb {
 		h2 {
 			span.date {
-				color: $color_21;
+				color: $color_22;
 			}
 		}
 		margin: 30px 10px 0 10px;
@@ -3650,8 +3618,8 @@ span.exergue {
 }
 .apercu {
 	font-family: $font-family_4;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/oeilbleu.png") no-repeat 0 center;
-	color: $color_25;
+	background:  no-repeat 0 center;
+	color: $color_27;
 	display: inline-block;
 	padding: 7px 0 8px 28px;
 	font-weight: normal;
@@ -3664,7 +3632,7 @@ span.exergue {
 }
 .liste_vignettes {
 	.apercu {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/oeilbleu-mini.png") no-repeat 0 66%;
+		background:  no-repeat 0 66%;
 		padding: 0 0 0 20px;
 		position: relative;
 		margin-left: 3px;
@@ -3692,7 +3660,7 @@ a.partage {
 	display: inline-block;
 	float: right;
 	margin: 2px 0 0 10px;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/partage.png") no-repeat 0 0;
+	background:  no-repeat 0 0;
 	cursor: pointer;
 	display: block;
 	height: 18px;
@@ -3703,7 +3671,7 @@ a.ecouter_son {
 	display: inline-block;
 	float: right;
 	margin: 2px 0 0 10px;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/son.png") no-repeat 0 0;
+	background:  no-repeat 0 0;
 	cursor: pointer;
 	display: block;
 	height: 18px;
@@ -3714,7 +3682,7 @@ a.ecouter_son {
 	display: inline-block;
 	float: right;
 	margin: 2px 0 0 10px;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/son.png") no-repeat 0 0;
+	background:  no-repeat 0 0;
 	cursor: pointer;
 	display: block;
 	height: 18px;
@@ -3736,41 +3704,41 @@ a.ecouter_son {
 		display: inline-block;
 		vertical-align: baseline;
 		span {
-			color: $color_24;
+			color: $color_26;
 		}
 	}
 	a {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat 0 0;
+		background:  no-repeat 0 0;
 		width: 48px;
 		height: 48px;
-		color: $color_26;
+		color: $color_28;
 		display: inline-block;
 		vertical-align: baseline;
 		margin-right: 5px;
 	}
 	span.commea {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat 0 0;
+		background:  no-repeat 0 0;
 		width: 48px;
 		height: 48px;
-		color: $color_26;
+		color: $color_28;
 		display: inline-block;
 		vertical-align: baseline;
 		margin-right: 5px;
 	}
 	a.zinc {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat -141px 0;
+		background:  no-repeat -141px 0;
 	}
 	a.seenthis {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat -94px 0;
+		background:  no-repeat -94px 0;
 	}
 	a.facebook {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat -47px 0;
+		background:  no-repeat -47px 0;
 	}
 	a.twitter {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat 0 0;
+		background:  no-repeat 0 0;
 	}
 	.commea.mail {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/icones-partage.png") no-repeat -188px 0;
+		background:  no-repeat -188px 0;
 	}
 }
 .icone-partage {
@@ -3795,7 +3763,7 @@ iframe.dataviz {
 	position: absolute;
 	right: 10px;
 	top: 10px;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/pleinecran.png") no-repeat 0 center;
+	background:  no-repeat 0 center;
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
@@ -3803,7 +3771,7 @@ iframe.dataviz {
 }
 .zoome {
 	.pleinecran {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/pleinecranclose.png") no-repeat 0 center;
+		background:  no-repeat 0 center;
 		opacity: 0.5;
 	}
 	position: fixed;
@@ -3856,7 +3824,7 @@ figcaption.court {
 	&:after {
 		content: '(…)';
 		font-size: 0.75em;
-		color: $color_21;
+		color: $color_22;
 		background: #fff;
 		padding-left: 3px;
 		position: absolute;
@@ -4160,7 +4128,7 @@ input.submit.on {
 }
 #pass_securise {
 	margin-left: 10px;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/cadenas.png") no-repeat 0 center;
+	background:  no-repeat 0 center;
 	width: 16px;
 	height: 18px;
 	display: inline-block;
@@ -4283,10 +4251,10 @@ input.submit.on {
 			h2 {
 				margin: 0;
 				padding: 0;
-				color: $color_21;
+				color: $color_22;
 				margin: 0;
 				padding: 0;
-				color: $color_21;
+				color: $color_22;
 			}
 		}
 		li.h2 {
@@ -4368,7 +4336,7 @@ input.submit.on {
 		font-size: 0.9em;
 		margin: 0 0 0 0;
 		padding: 0;
-		color: $color_27;
+		color: $color_29;
 		white-space: nowrap;
 		-moz-font-feature-settings: 'smcp';
 		-webkit-font-feature-settings: 'smcp';
@@ -4418,9 +4386,9 @@ input.submit.on {
 			margin-top: 35px;
 			float: left;
 			font-size: 1.1em;
-			color: $color_20;
+			color: $color_21;
 			a {
-				color: $color_20;
+				color: $color_21;
 			}
 		}
 	}
@@ -4433,7 +4401,7 @@ input.submit.on {
 	}
 	.sous_menu {
 		padding: 20px 0 0 20px;
-		color: $color_29;
+		color: $color_31;
 		font-size: 1.1em;
 		-moz-font-feature-settings: 'smcp';
 		-webkit-font-feature-settings: 'smcp';
@@ -4500,9 +4468,9 @@ input.submit.on {
 			font-size: 1.1em;
 			vertical-align: top;
 			margin-top: 8px;
-			color: $color_20;
+			color: $color_21;
 			a {
-				color: $color_20;
+				color: $color_21;
 			}
 		}
 	}
@@ -4523,12 +4491,12 @@ input.submit.on {
 	display: inline-block;
 	margin-left: 5px;
 	font-family: $font-family_5;
-	color: $color_24;
+	color: $color_26;
 	span {
 		color: $color_4;
 	}
 	a {
-		color: $color_21;
+		color: $color_22;
 		background: transparent;
 		padding: 0;
 		margin-left: 2px;
@@ -4592,7 +4560,7 @@ input.submit.on {
 	}
 	.divforum {
 		h2 {
-			color: $color_32;
+			color: $color_34;
 		}
 	}
 	.forum {
@@ -4646,13 +4614,13 @@ input.submit.on {
 			background: #f6e9d9;
 			width: 350px;
 			border: 1px solid #f6e9d9;
-			color: $color_28;
+			color: $color_30;
 		}
 	}
 	input.submit {
 		border: 0;
-		color: $color_26;
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/loupe.png") no-repeat center center #333;
+		color: $color_28;
+		background:  no-repeat center center #333;
 		width: 36px;
 		height: 36px;
 		margin: 0;
@@ -4665,8 +4633,8 @@ input.submit.on {
 		-webkit-transition-duration: .4s;
 		-webkit-transition-property: background;
 		&:active {
-			color: $color_26;
-			background: url("https://www.monde-diplomatique.fr/squelettes/images/loupe.png") no-repeat center center #e00;
+			color: $color_28;
+			background:  no-repeat center center #e00;
 			cursor: pointer;
 		}
 	}
@@ -4677,7 +4645,7 @@ input.submit.on {
 			background: #f6e9d9;
 			width: 350px;
 			border: 1px solid #f6e9d9;
-			color: $color_28;
+			color: $color_30;
 			font-weight: 700;
 			width: 350px;
 		}
@@ -4767,11 +4735,11 @@ ul#menu {
 	font-feature-settings: 'c2sc';
 	position: relative;
 	padding: 10px 0 14px 35px;
-	color: $color_20;
+	color: $color_21;
 	a.absotrick {
 		display: block;
 		padding: 10px 0 12px 0;
-		color: $color_26;
+		color: $color_28;
 		transition-duration: .3s;
 		transition-property: background;
 		-moz-transition-duration: .3s;
@@ -4799,10 +4767,10 @@ ul#menu {
 		font-weight: 400;
 	}
 	span.cep {
-		color: $color_20;
+		color: $color_21;
 	}
 	span.cler {
-		color: $color_29;
+		color: $color_31;
 		line-height: 0.5em;
 		vertical-align: middle;
 	}
@@ -4831,7 +4799,7 @@ ul#menu {
 .avantapres {
 	a.fleche {
 		float: left;
-		color: $color_20;
+		color: $color_21;
 		display: block;
 		font-size: 1em;
 		line-height: 1em;
@@ -4844,7 +4812,7 @@ ul#menu {
 		left: 0;
 		padding: 10px 0 8px 35px;
 		background: #dedee2;
-		color: $color_21;
+		color: $color_22;
 		a {
 			display: inline;
 			color: $color_4;
@@ -4958,7 +4926,7 @@ li.seul {
 }
 .pagination {
 	font-size: 1.5em;
-	color: $color_24;
+	color: $color_26;
 	margin: 0 0 50px 0;
 	text-align: center;
 	font-feature-settings: "onum";
@@ -4968,7 +4936,7 @@ li.seul {
 		color: $color_4;
 	}
 	a {
-		color: $color_22;
+		color: $color_24;
 	}
 }
 .pagination.haut {
@@ -4976,7 +4944,7 @@ li.seul {
 }
 .nombremots {
 	text-align: right;
-	color: $color_21;
+	color: $color_22;
 }
 .bandeautitre {
 	position: fixed;
@@ -4992,7 +4960,7 @@ li.seul {
 	a.bandeau {
 		padding: 8px 25px 12px 25px;
 		display: block;
-		color: $color_28;
+		color: $color_30;
 		vertical-align: middle;
 	}
 	.letitre {
@@ -5022,7 +4990,7 @@ li.seul {
 		}
 	}
 	.partage {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/partage-bandeau.png") no-repeat 0 0;
+		background:  no-repeat 0 0;
 		position: absolute;
 		top: 10px;
 		right: 15px;
@@ -5031,7 +4999,7 @@ li.seul {
 	}
 }
 .chapodactu {
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/chapodactu.jpg") no-repeat 35px 2px #fff;
+	background:  no-repeat 35px 2px #fff;
 	border-bottom: 1px solid #333;
 	font-size: 1.45em;
 	line-height: 1.3em;
@@ -5059,7 +5027,7 @@ li.seul {
 	}
 }
 .chapodactu.treslong {
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/chapodactu-treslong.jpg") no-repeat 35px 2px #fff;
+	background:  no-repeat 35px 2px #fff;
 }
 .voiraussi {
 	margin: 0 150px 50px 35px;
@@ -5113,7 +5081,7 @@ li.seul {
 		}
 	}
 	.dates_auteurs {
-		color: $color_22;
+		color: $color_24;
 	}
 }
 .voiraussi.perspective.dessous {
@@ -5150,7 +5118,7 @@ li.seul {
 	font-size: 1.2em;
 	font-family: $font-family_6;
 	a {
-		color: $color_21;
+		color: $color_22;
 		padding: 5px 10px;
 		margin: 0 8px 12px 0;
 		border-radius: 8px;
@@ -5160,10 +5128,10 @@ li.seul {
 	}
 	a.pays {
 		border: 2px solid #be843c;
-		color: $color_31;
+		color: $color_33;
 	}
 	table {
-		color: $color_24;
+		color: $color_26;
 		td {
 			a {
 				background: none;
@@ -5187,7 +5155,7 @@ li.seul {
 		font-family: $font-family_4;
 		font-weight: 800;
 		text-transform: uppercase;
-		color: $color_20;
+		color: $color_21;
 		text-transform: uppercase;
 		display: block;
 	}
@@ -5231,7 +5199,7 @@ h3.cat {
 	}
 	span {
 		text-transform: uppercase;
-		color: $color_21;
+		color: $color_22;
 		font-family: $font-family_4;
 		font-size: 0.8em;
 	}
@@ -5464,7 +5432,7 @@ h3.cat {
 	width: 219px;
 	display: inline-block;
 	font-size: 1.3em;
-	color: $color_24;
+	color: $color_26;
 	margin-top: 30px;
 	.fleche {
 		font-size: 5em;
@@ -5472,7 +5440,7 @@ h3.cat {
 		clear: both;
 		line-height: 0.5em;
 		margin: 0 0 20px 0;
-		color: $color_20;
+		color: $color_21;
 	}
 }
 .vieux {
@@ -5513,7 +5481,7 @@ h3.cat {
 	float: right;
 }
 .articleconnexe {
-	color: $color_32;
+	color: $color_34;
 	line-height: 1.3em;
 	span.titre {
 		font-family: $font-family_5;
@@ -5728,7 +5696,7 @@ h3.cat {
 		font-weight: 800;
 	}
 	span {
-		color: $color_21;
+		color: $color_22;
 		a {
 			color: $color_4;
 		}
@@ -5771,7 +5739,7 @@ h3.cat {
 	text-transform: uppercase;
 	line-height: 1.4em;
 	clear: both;
-	color: $color_24;
+	color: $color_26;
 	margin-bottom: 20px;
 	a {
 		color: $color_4;
@@ -5971,7 +5939,7 @@ h3.cat {
 }
 .pretitre {
 	font-family: $font-family_4;
-	color: $color_21;
+	color: $color_22;
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 1em;
@@ -6045,17 +6013,17 @@ h3.cat {
 		border-radius: 20px;
 	}
 	a.lien_feuilleter {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/livreouvert.png") no-repeat 15px center #f6e9d9;
+		background:  no-repeat 15px center #f6e9d9;
 		margin-right: 10px;
 	}
 	a.lien_telecharger {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/telecharger.png") no-repeat 15px center #f6e9d9;
+		background:  no-repeat 15px center #f6e9d9;
 	}
 	a.lien_telecharger.on {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/telecharger.png") no-repeat 15px center #000;
+		background:  no-repeat 15px center #000;
 	}
 	a.lien_ecouter {
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/son-blanc.png") no-repeat 15px center #f6e9d9;
+		background:  no-repeat 15px center #f6e9d9;
 	}
 }
 .rubrique_numero {
@@ -6096,7 +6064,7 @@ h2#leslivres {
 	color: $color_4;
 	line-height: 1.3em;
 	span {
-		color: $color_21;
+		color: $color_22;
 		font-feature-settings: normal;
 		-moz-font-feature-settings: normal;
 		-webkit-font-feature-settings: normal;
@@ -6142,7 +6110,7 @@ h2#leslivres {
 	clear: both;
 	overflow: hidden;
 	a {
-		color: $color_24;
+		color: $color_26;
 	}
 }
 .baseline.minimarge {
@@ -6172,7 +6140,7 @@ h2#leslivres {
 	display: inline;
 	font-style: italic;
 	&:before {
-		color: $color_21;
+		color: $color_22;
 		content: "/";
 	}
 	&:nth-child(2) {
@@ -6193,7 +6161,7 @@ h2#leslivres {
 .nb_resultats {
 	a {
 		&:before {
-			color: $color_21;
+			color: $color_22;
 			content: "/";
 		}
 		&:first-child {
@@ -6213,14 +6181,14 @@ h2.facette {
 	font-feature-settings: 'onum';
 	font-family: $font-family_5;
 	span {
-		color: $color_21;
+		color: $color_22;
 		font-family: $font-family_4;
 	}
 	&:last-of-type {
 		margin: 0 0 25px 0;
 	}
 	a.suppr {
-		color: $color_20;
+		color: $color_21;
 		border-radius: 15px;
 		padding: 0 7px 2px 7px;
 		margin: 0 5px 0 -3px;
@@ -6267,14 +6235,14 @@ h2.facette {
 			}
 			label {
 				margin: 0 5px;
-				color: $color_20;
+				color: $color_21;
 			}
 		}
 	}
 	.xtags {
 		margin: 15px 0 0 0;
 		line-height: 1.4em;
-		color: $color_24;
+		color: $color_26;
 		a {
 			color: $color_4;
 			font-family: $font-family_5;
@@ -6284,7 +6252,7 @@ h2.facette {
 	.xauteurs {
 		margin: 15px 0 0 0;
 		line-height: 1.4em;
-		color: $color_24;
+		color: $color_26;
 		a {
 			color: $color_4;
 			font-family: $font-family_5;
@@ -6348,7 +6316,7 @@ td.lesmots {
 		bottom: 0;
 		right: 0;
 		font-size: 1.25em;
-		background: url("https://www.monde-diplomatique.fr/squelettes/images/oeilbleu.png") no-repeat 15px center #fff;
+		background:  no-repeat 15px center #fff;
 		padding: 18px 10px 20px 42px;
 		border-top-left-radius: 15px;
 	}
@@ -6362,7 +6330,7 @@ td.lesmots {
 		font-family: $font-family_4;
 		font-weight: 800;
 		margin: 55px 0 20px 0;
-		color: $color_20;
+		color: $color_21;
 		border-top: 10px solid #ccc;
 		padding: 30px 0 0 0;
 	}
@@ -6386,7 +6354,7 @@ td.lesmots {
 }
 .index-carthematiques {
 	margin: 10px 0 35px 0;
-	color: $color_24;
+	color: $color_26;
 	a {
 		color: $color_4;
 	}
@@ -6402,14 +6370,14 @@ td.lesmots {
 }
 .sous_menu {
 	margin-bottom: 10px;
-	color: $color_29;
+	color: $color_31;
 	font-size: 1.1em;
 	-moz-font-feature-settings: 'smcp';
 	-webkit-font-feature-settings: 'smcp';
 	-ms-font-feature-settings: 'smcp';
 	font-feature-settings: 'smcp';
 	a {
-		color: $color_22;
+		color: $color_24;
 	}
 }
 #chaposdactu {
@@ -6455,7 +6423,7 @@ td.lesmots {
 			float: left;
 			width: 1em;
 			a {
-				color: $color_20;
+				color: $color_21;
 			}
 			a.on {
 				color: $color_17;
@@ -6464,7 +6432,7 @@ td.lesmots {
 	}
 }
 #chapbox {
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/chapodactu-treslong.jpg") no-repeat 12px 40px #fff;
+	background:  no-repeat 12px 40px #fff;
 	border-bottom: 1px solid #bbb;
 	padding: 0 0 30px 170px;
 	height: 350px;
@@ -6506,7 +6474,7 @@ td.lesmots {
 					font-feature-settings: 'smcp';
 					font-weight: 400;
 					padding-bottom: 10px;
-					color: $color_21;
+					color: $color_22;
 				}
 			}
 		}
@@ -6518,7 +6486,7 @@ td.lesmots {
 }
 .minitags {
 	font-size: 1.25em;
-	color: $color_24;
+	color: $color_26;
 	line-height: 1.4em;
 	font-family: $font-family_6;
 	.tous {
@@ -6580,7 +6548,7 @@ li.bloc_vignette {
 		}
 	}
 	h3 {
-		color: $color_20;
+		color: $color_21;
 	}
 }
 .bloc_vignette.recent {
@@ -6635,7 +6603,7 @@ li.bloc_vignette {
 	font-size: 1.3em;
 	margin: 0 0 30px 0;
 	.retour {
-		color: $color_24;
+		color: $color_26;
 		display: block;
 		margin: 10px 0 0 0;
 	}
@@ -6649,7 +6617,7 @@ li.bloc_vignette {
 		margin: 0 5px 0 5px;
 	}
 	>a {
-		color: $color_24;
+		color: $color_26;
 		span {
 			color: $color_4;
 		}
@@ -6658,7 +6626,7 @@ li.bloc_vignette {
 .selection_archives {
 	display: block;
 	margin: 15px 0 0 0;
-	color: $color_24;
+	color: $color_26;
 	font-size: 0.9em;
 	line-height: 1.4em;
 	a {
@@ -6716,7 +6684,7 @@ li.bloc_vignette {
 		font-size: 2em;
 		span {
 			text-transform: uppercase;
-			color: $color_21;
+			color: $color_22;
 			font-size: 0.75em;
 		}
 	}
@@ -6829,7 +6797,7 @@ li.bloc_vignette {
 		}
 	}
 }
-/* de page à 2 cols */
+
 .page_carnet {
 	.enlarge {
 		float: right;
@@ -6837,13 +6805,18 @@ li.bloc_vignette {
 		border-top: 1px dashed #bbb;
 		margin-top: 35px !important;
 		padding-top: 15px;
+	}
+}
+
+.page_carnet {
+	.enlarge {
 		h2 {
 			font-size: 1.4em;
 			text-transform: uppercase;
 			margin: 0 0 15px 0;
 			padding: 0 0 10px 0;
 			border-bottom: 1px dashed #999;
-			color: $color_21;
+			color: $color_22;
 			font-weight: 400;
 		}
 	}
@@ -6857,7 +6830,7 @@ li.bloc_vignette {
 	.finger {
 		float: left;
 		width: 25%;
-		color: $color_20;
+		color: $color_21;
 		ul {
 			margin: 0 10px 0 0;
 			li {
@@ -6901,16 +6874,16 @@ li.bloc_vignette {
 	padding: 20px 30px 30px 30px;
 	margin: 30px 0 30px 0;
 	background: #fef5e0;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/soutien16.jpg") no-repeat 0 0 #fef5e0;
+	background:  no-repeat 0 0 #fef5e0;
 	border: 0;
 	line-height: 1.6em;
 	font-size: 1.1em;
 	overflow: hidden;
-	color: $color_28;
+	color: $color_30;
 	font-family: $font-family_5;
 	clear: both;
 	a {
-		color: $color_35;
+		color: $color_37;
 		cursor: pointer;
 	}
 	h3 {
@@ -6929,7 +6902,7 @@ li.bloc_vignette {
 			display: block;
 			text-align: right;
 			margin: 5px 0 0 0;
-			color: $color_28;
+			color: $color_30;
 			font-family: $font-family_4;
 		}
 	}
@@ -6951,10 +6924,10 @@ li.bloc_vignette {
 }
 .soutien.dons {
 	padding: 20px 30px 30px 200px;
-	background: url("https://www.monde-diplomatique.fr/squelettes/images/dons2015.jpg") no-repeat 0 0 #01cdf0;
+	background:  no-repeat 0 0 #01cdf0;
 	font-family: $font-family_5;
 	a {
-		color: $color_28;
+		color: $color_30;
 	}
 	.argu {
 		font-size: 1.1em;
@@ -7004,7 +6977,7 @@ li.bloc_vignette {
 	}
 }
 .pswp__button {
-	background: rgba(0,0,0,0) url("https://www.monde-diplomatique.fr/squelettes/images/skin-diplo.png") no-repeat 0 0 / 500px 100px !important;
+	background: rgba(0,0,0,0)  no-repeat 0 0 / 500px 100px !important;
 	height: 50px !important;
 	width: 50px !important;
 	width: 44px;
@@ -7024,7 +6997,7 @@ li.bloc_vignette {
 	transition: opacity 0.2s;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	background: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.png") 0 0 no-repeat;
+	background:  0 0 no-repeat;
 	background-size: 264px 88px;
 	width: 44px;
 	height: 44px;
@@ -7059,7 +7032,7 @@ li.bloc_vignette {
 		position: absolute;
 		top: 0px !important;
 		width: 100px !important;
-		background: rgba(0,0,0,0) url("https://www.monde-diplomatique.fr/squelettes/images/skin-diplo.png") no-repeat 0 0 / 500px 100px !important;
+		background: rgba(0,0,0,0)  no-repeat 0 0 / 500px 100px !important;
 		height: 100px !important;
 		width: 100px !important;
 		background-position: -100px 0 !important;
@@ -7075,7 +7048,7 @@ li.bloc_vignette {
 	position: absolute;
 	left: 0;
 	&:before {
-		background: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.png") 0 0 no-repeat;
+		background:  0 0 no-repeat;
 		background-size: 264px 88px;
 		width: 44px;
 		height: 44px;
@@ -7097,7 +7070,7 @@ li.bloc_vignette {
 		position: absolute;
 		top: 0px !important;
 		width: 100px !important;
-		background: rgba(0,0,0,0) url("https://www.monde-diplomatique.fr/squelettes/images/skin-diplo.png") no-repeat 0 0 / 500px 100px !important;
+		background: rgba(0,0,0,0)  no-repeat 0 0 / 500px 100px !important;
 		height: 100px !important;
 		width: 100px !important;
 		background-position: -200px 0 !important;
@@ -7113,7 +7086,7 @@ li.bloc_vignette {
 	position: absolute;
 	right: 0;
 	&:before {
-		background: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.png") 0 0 no-repeat;
+		background:  0 0 no-repeat;
 		background-size: 264px 88px;
 		width: 44px;
 		height: 44px;
@@ -7161,7 +7134,7 @@ li.bloc_vignette {
 	}
 	small {
 		font-size: 11px;
-		color: $color_43;
+		color: $color_45;
 	}
 }
 .pswp--zoomed-in {
@@ -7189,7 +7162,7 @@ li.bloc_vignette {
 	font-size: 13px;
 	padding: 10px;
 	line-height: 20px;
-	color: $color_40;
+	color: $color_42;
 }
 .ps.references {
 	border: 1px solid #ccc;
@@ -7407,7 +7380,7 @@ a.refmin {
 	.puce {
 		font-family: $font-family_4;
 		font-weight: 100;
-		color: $color_32;
+		color: $color_34;
 		float: left;
 		font-size: 3em;
 		margin: 0 15px 0 0;
@@ -7597,13 +7570,13 @@ li.gauche {
 }
 .commentaires {
 	a {
-		color: $color_32;
+		color: $color_34;
 		vertical-align: middle;
 		display: inline-block;
 	}
 }
 a.com {
-	color: $color_32;
+	color: $color_34;
 	vertical-align: middle;
 	display: inline-block;
 }
@@ -7659,7 +7632,7 @@ a.com {
 }
 .forum-nav {
 	display: inline;
-	color: $color_32;
+	color: $color_34;
 	font-size: 0.9em;
 }
 .forum-texte {
@@ -7815,7 +7788,7 @@ a.com {
 }
 .biocolcarto {
 	font-size: 1.15em;
-	color: $color_21;
+	color: $color_22;
 	margin: 30px 0 1em 0;
 	strong {
 		-moz-font-feature-settings: 'smcp';
@@ -7938,7 +7911,6 @@ a.com {
 	}
 	.texte {
 		blockquote.betisier {
-			background-image: url("https://www.monde-diplomatique.fr/squelettes/images/cadre_bas.png"),url("https://www.monde-diplomatique.fr/squelettes/images/cadre.jpg") !important;
 			background-repeat: no-repeat,no-repeat !important;
 			background-position: bottom left,top left !important;
 			background-color: $background-color_14 !important;
@@ -7955,7 +7927,7 @@ a.com {
 			}
 		}
 		blockquote.manuels {
-			background-image: url("https://www.monde-diplomatique.fr/squelettes/images/papierfroise.jpg") !important;
+			background-image:  !important;
 			background-repeat: no-repeat !important;
 			background-position: top center !important;
 			background-color: $background-color_2 !important;
@@ -7989,7 +7961,6 @@ a.com {
 					color: $color_4 !important;
 					font-weight: 800;
 					text-transform: uppercase;
-					background-image: url("https://www.monde-diplomatique.fr/squelettes/images/ecofolies.png"),url("https://www.monde-diplomatique.fr/squelettes/images/economiste.png") !important;
 					background-repeat: no-repeat,no-repeat !important;
 					background-position: 60% top,left top !important;
 					text-align: center;
@@ -8010,7 +7981,7 @@ a.com {
 					font-weight: 800;
 					text-transform: uppercase;
 					text-align: center;
-					background-image: url("https://www.monde-diplomatique.fr/squelettes/images/economicocircus.png") !important;
+					background-image:  !important;
 					background-repeat: no-repeat !important;
 					background-position: center top !important;
 					padding: 118px 0 0.2em 0;
@@ -8239,10 +8210,10 @@ a.com {
 }
 div.star-rating {
 	a {
-		background: url("/web/20171012113316im_/https://www.monde-diplomatique.fr/plugins/classeur_d_articles/img/star.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+		background: url("/web/20171010161038im_/https://www.monde-diplomatique.fr/plugins/classeur_d_articles/img/star.png") no-repeat scroll 0 0 rgba(0,0,0,0);
 		cursor: pointer;
 		text-indent: -999em;
-		color: $color_26;
+		color: $color_28;
 		display: block;
 		float: left;
 		height: 19px;
@@ -8285,10 +8256,10 @@ a#session_mon_compte {
 	display: inline-block;
 }
 a#session_mon_compte.allume {
-	color: $color_36;
+	color: $color_38;
 }
 a#session_deconnexion {
-	color: $color_20;
+	color: $color_21;
 	text-transform: lowercase;
 	font-feature-settings: "smcp";
 	margin: 10px 0 0 0;
@@ -8298,7 +8269,7 @@ a#session_deconnexion {
 	margin: auto !important;
 	background: #709cad !important;
 	box-shadow: none !important;
-	color: $color_28 !important;
+	color: $color_30 !important;
 	padding: 30px;
 	overflow: hidden;
 	display: none;
@@ -8308,13 +8279,13 @@ a#session_deconnexion {
 		margin: 0;
 		.panel {
 			a {
-				color: $color_37;
+				color: $color_39;
 			}
 			h1 {
-				color: $color_36 !important;
+				color: $color_38 !important;
 			}
 			h2 {
-				color: $color_36 !important;
+				color: $color_38 !important;
 			}
 			.formulaire_login {
 				input[type="submit"] {
@@ -8358,13 +8329,13 @@ a#session_deconnexion {
 		margin: 0;
 		.panel {
 			a {
-				color: $color_37;
+				color: $color_39;
 			}
 			h1 {
-				color: $color_36 !important;
+				color: $color_38 !important;
 			}
 			h2 {
-				color: $color_36 !important;
+				color: $color_38 !important;
 			}
 			.formulaire_login {
 				input[type="submit"] {
@@ -8400,12 +8371,12 @@ a#session_deconnexion {
 		color: $color_14;
 	}
 	h1 {
-		color: $color_28 !important;
+		color: $color_30 !important;
 		font-family: $font-family_7;
 		font-weight: bold;
 		font-size: 2.6em;
 		margin-left: -35px;
-		color: $color_28 !important;
+		color: $color_30 !important;
 	}
 	.formulaire_login {
 		h1 {
@@ -8460,7 +8431,7 @@ a#session_deconnexion {
 	}
 	.formulaire_spip {
 		label {
-			color: $color_28 !important;
+			color: $color_30 !important;
 		}
 	}
 	width: auto !important;
@@ -8562,7 +8533,7 @@ a#session_deconnexion {
 			margin: 0 0 5px 0;
 			padding: 0 0 0 30px;
 			font-size: 1.2em;
-			color: $color_36;
+			color: $color_38;
 			&:before {
 				content: "→";
 			}
@@ -8643,7 +8614,7 @@ a#session_deconnexion {
 		display: none;
 	}
 	.plus {
-		color: $color_21;
+		color: $color_22;
 		margin: 5px 0 0 0;
 		font-size: 1.1em;
 	}
@@ -8662,7 +8633,7 @@ a#session_deconnexion {
 		}
 		li.erreur {
 			.erreur_message {
-				color: $color_38;
+				color: $color_40;
 				margin: 0 0 20px 0;
 				font-family: $font-family_9;
 			}
@@ -8686,10 +8657,10 @@ a#session_deconnexion {
 	.erreur {
 		input[type=text] {
 			border: 1px solid #b00000;
-			color: $color_38;
+			color: $color_40;
 			&:focus {
 				border: 1px solid #b00000;
-				color: $color_38;
+				color: $color_40;
 				border: 1px solid #bbb;
 				color: $color_4;
 			}
@@ -8729,10 +8700,10 @@ a#session_deconnexion {
 				font-style: normal;
 				display: block;
 				float: right;
-				color: $color_32;
+				color: $color_34;
 			}
 			em.nok {
-				color: $color_39;
+				color: $color_41;
 			}
 		}
 	}
@@ -8761,10 +8732,10 @@ a#session_deconnexion {
 #paywall {
 	background: #709cad;
 	margin: 0 0 20px 0;
-	color: $color_28;
+	color: $color_30;
 	font-family: $font-family_5;
 	a {
-		color: $color_28;
+		color: $color_30;
 		display: block;
 	}
 	span.bouton {
@@ -8844,7 +8815,7 @@ a#session_deconnexion {
 		}
 	}
 	.reserve {
-		color: $color_25;
+		color: $color_27;
 		margin: 20px 0 0 0;
 		font-weight: 700;
 		.bouton {
@@ -8912,7 +8883,7 @@ h2.telecharger {
 }
 .achat-connexion {
 	text-align: right;
-	color: $color_21;
+	color: $color_22;
 	font-style: italic;
 	font-size: 1.2em;
 	margin: 15px 0 0 0;
@@ -8927,22 +8898,22 @@ a.bouton_telecharger {
 	height: 170px;
 	width: 120px;
 	margin: 0 0 8px 0;
-	color: $color_26;
+	color: $color_28;
 	overflow: hidden;
 }
 .epub {
 	a.bouton_telecharger {
-		background: url("https://www.monde-diplomatique.fr/plugins/paywall/images/epubsprite.png") 0 0 no-repeat;
+		background:  0 0 no-repeat;
 	}
 }
 .mobi {
 	a.bouton_telecharger {
-		background: url("https://www.monde-diplomatique.fr/plugins/paywall/images/epubsprite.png") -300px 0 no-repeat;
+		background:  -300px 0 no-repeat;
 	}
 }
 .PDF {
 	a.bouton_telecharger {
-		background: url("https://www.monde-diplomatique.fr/plugins/paywall/images/epubsprite.png") -150px 0 no-repeat;
+		background:  -150px 0 no-repeat;
 	}
 }
 .telecharger {
@@ -8984,7 +8955,7 @@ a.bouton_telecharger {
 			color: $color_4;
 		}
 		dd {
-			color: $color_24;
+			color: $color_26;
 			margin: 0 0 10px 20px;
 			font-weight: 700;
 		}
@@ -9133,9 +9104,9 @@ a.bouton_telecharger {
 	font-size: 14px;
 	line-height: 16px;
 	margin-top: -8px;
-	color: $color_40;
+	color: $color_42;
 	a {
-		color: $color_40;
+		color: $color_42;
 		text-decoration: underline;
 	}
 }
@@ -9184,7 +9155,7 @@ a.bouton_telecharger {
 	height: 44px;
 	font-size: 13px;
 	line-height: 44px;
-	color: $color_41;
+	color: $color_43;
 	opacity: 0.75;
 	padding: 0 10px;
 }
@@ -9232,7 +9203,7 @@ a.bouton_telecharger {
 	a {
 		display: block;
 		padding: 8px 12px;
-		color: $color_28;
+		color: $color_30;
 		text-decoration: none;
 		font-size: 14px;
 		line-height: 18px;
@@ -9294,7 +9265,7 @@ a.pswp__share--facebook {
 .pswp__preloader--active {
 	opacity: 1;
 	.pswp__preloader__icn {
-		background: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/preloader.gif") 0 0 no-repeat;
+		background:  0 0 no-repeat;
 	}
 }
 .pswp--css_animation {
@@ -9475,7 +9446,6 @@ a.pswp__share--facebook {
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 16px;
-	background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png");
 }
 .ui-widget-overlay {
 	position: absolute;
@@ -9483,7 +9453,7 @@ a.pswp__share--facebook {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #aaa url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	background: #aaa  50% 50% repeat-x;
 	opacity: .30;
 	filter: Alpha(Opacity=30);
 }
@@ -9515,53 +9485,53 @@ a.pswp__share--facebook {
 }
 .ui-widget-content {
 	border: 1px solid #aaa;
-	background: #fff url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
-	color: $color_19;
+	background: #fff  50% 50% repeat-x;
+	color: $color_20;
 	a {
-		color: $color_19;
+		color: $color_20;
 	}
 	.ui-state-default {
 		border: 1px solid #d3d3d3;
-		background: #e6e6e6 url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+		background: #e6e6e6  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_44;
+		color: $color_46;
 	}
 	.ui-state-hover {
 		border: 1px solid #999;
-		background: #dadada url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+		background: #dadada  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_45;
+		color: $color_47;
 	}
 	.ui-state-focus {
 		border: 1px solid #999;
-		background: #dadada url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+		background: #dadada  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_45;
+		color: $color_47;
 	}
 	.ui-state-active {
 		border: 1px solid #aaa;
-		background: #fff url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+		background: #fff  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_45;
+		color: $color_47;
 	}
 	.ui-state-highlight {
 		border: 1px solid #fcefa1;
-		background: #fbf9ee url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
-		color: $color_46;
+		background: #fbf9ee  50% 50% repeat-x;
+		color: $color_48;
 		a {
-			color: $color_46;
+			color: $color_48;
 		}
 	}
 	.ui-state-error {
 		border: 1px solid #cd0a0a;
-		background: #fef1ec url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
-		color: $color_47;
+		background: #fef1ec  50% 50% repeat-x;
+		color: $color_49;
 		a {
-			color: $color_47;
+			color: $color_49;
 		}
 	}
 	.ui-state-error-text {
-		color: $color_47;
+		color: $color_49;
 	}
 	.ui-priority-primary {
 		font-weight: bold;
@@ -9577,59 +9547,58 @@ a.pswp__share--facebook {
 		background-image: none;
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png");
 	}
 }
 .ui-widget-header {
 	border: 1px solid #aaa;
-	background: #ccc url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
-	color: $color_19;
+	background: #ccc  50% 50% repeat-x;
+	color: $color_20;
 	font-weight: bold;
 	a {
-		color: $color_19;
+		color: $color_20;
 	}
 	.ui-state-default {
 		border: 1px solid #d3d3d3;
-		background: #e6e6e6 url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+		background: #e6e6e6  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_44;
+		color: $color_46;
 	}
 	.ui-state-hover {
 		border: 1px solid #999;
-		background: #dadada url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+		background: #dadada  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_45;
+		color: $color_47;
 	}
 	.ui-state-focus {
 		border: 1px solid #999;
-		background: #dadada url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+		background: #dadada  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_45;
+		color: $color_47;
 	}
 	.ui-state-active {
 		border: 1px solid #aaa;
-		background: #fff url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+		background: #fff  50% 50% repeat-x;
 		font-weight: normal;
-		color: $color_45;
+		color: $color_47;
 	}
 	.ui-state-highlight {
 		border: 1px solid #fcefa1;
-		background: #fbf9ee url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
-		color: $color_46;
+		background: #fbf9ee  50% 50% repeat-x;
+		color: $color_48;
 		a {
-			color: $color_46;
+			color: $color_48;
 		}
 	}
 	.ui-state-error {
 		border: 1px solid #cd0a0a;
-		background: #fef1ec url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
-		color: $color_47;
+		background: #fef1ec  50% 50% repeat-x;
+		color: $color_49;
 		a {
-			color: $color_47;
+			color: $color_49;
 		}
 	}
 	.ui-state-error-text {
-		color: $color_47;
+		color: $color_49;
 	}
 	.ui-priority-primary {
 		font-weight: bold;
@@ -9645,99 +9614,91 @@ a.pswp__share--facebook {
 		background-image: none;
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png");
 	}
 }
 .ui-state-default {
 	border: 1px solid #d3d3d3;
-	background: #e6e6e6 url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+	background: #e6e6e6  50% 50% repeat-x;
 	font-weight: normal;
-	color: $color_44;
+	color: $color_46;
 	a {
-		color: $color_44;
+		color: $color_46;
 		text-decoration: none;
 		&:link {
-			color: $color_44;
+			color: $color_46;
 			text-decoration: none;
 		}
 		&:visited {
-			color: $color_44;
+			color: $color_46;
 			text-decoration: none;
 		}
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png");
 	}
 }
 .ui-state-hover {
 	border: 1px solid #999;
-	background: #dadada url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+	background: #dadada  50% 50% repeat-x;
 	font-weight: normal;
-	color: $color_45;
+	color: $color_47;
 	a {
-		color: $color_45;
+		color: $color_47;
 		text-decoration: none;
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png");
 	}
 }
 .ui-state-focus {
 	border: 1px solid #999;
-	background: #dadada url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+	background: #dadada  50% 50% repeat-x;
 	font-weight: normal;
-	color: $color_45;
+	color: $color_47;
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png");
 	}
 }
 .ui-state-active {
 	border: 1px solid #aaa;
-	background: #fff url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+	background: #fff  50% 50% repeat-x;
 	font-weight: normal;
-	color: $color_45;
+	color: $color_47;
 	a {
-		color: $color_45;
+		color: $color_47;
 		text-decoration: none;
 		&:link {
-			color: $color_45;
+			color: $color_47;
 			text-decoration: none;
 		}
 		&:visited {
-			color: $color_45;
+			color: $color_47;
 			text-decoration: none;
 		}
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png");
 	}
 }
 .ui-state-highlight {
 	border: 1px solid #fcefa1;
-	background: #fbf9ee url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
-	color: $color_46;
+	background: #fbf9ee  50% 50% repeat-x;
+	color: $color_48;
 	a {
-		color: $color_46;
+		color: $color_48;
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png");
 	}
 }
 .ui-state-error {
 	border: 1px solid #cd0a0a;
-	background: #fef1ec url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
-	color: $color_47;
+	background: #fef1ec  50% 50% repeat-x;
+	color: $color_49;
 	a {
-		color: $color_47;
+		color: $color_49;
 	}
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png");
 	}
 }
 .ui-state-error-text {
-	color: $color_47;
+	color: $color_49;
 	.ui-icon {
-		background-image: url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png");
 	}
 }
 .ui-priority-primary {
@@ -10355,7 +10316,7 @@ a.pswp__share--facebook {
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
 	padding: 8px;
-	background: #aaa url("https://www.monde-diplomatique.fr/plugins/jquery_ui/javascript/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
+	background: #aaa  50% 50% repeat-x;
 	opacity: .30;
 	filter: Alpha(Opacity=30);
 	-moz-border-radius: 8px;
@@ -10363,483 +10324,3 @@ a.pswp__share--facebook {
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
 }
-@media (max-width:959px) {
-	*[class*="page_connexion"] {
-		#contenu {
-			margin: 0;
-		}
-	}
-	.bloc-connexion {
-		max-width: 100%;
-		padding: 0 !important;
-		.page_panel {
-			padding: 35px 20px 35px 20px;
-			overflow: hidden;
-		}
-	}
-	.panel {
-		.mesinfos {
-			margin: 0 auto 35px auto !important;
-			width: auto !important;
-			float: none !important;
-			max-width: 500px;
-		}
-		.formulaire_login {
-			margin: 0 auto 35px auto !important;
-			width: auto !important;
-			float: none !important;
-			max-width: 500px;
-		}
-		.abo_oui {
-			margin: 0 auto 35px auto !important;
-			width: auto !important;
-			float: none !important;
-			max-width: 500px;
-		}
-		.abo_non {
-			margin: 0 auto 35px auto !important;
-			width: auto !important;
-			float: none !important;
-			max-width: 500px;
-		}
-		.notice {
-			margin: 0 auto 35px auto !important;
-			width: auto !important;
-			float: none !important;
-			max-width: 500px;
-		}
-		.abo_inst {
-			margin: 0 auto 35px auto !important;
-			width: auto !important;
-			float: none !important;
-			max-width: 500px;
-			.argumentaire {
-				.btn {
-					margin: 25px 0 20px 0;
-				}
-			}
-		}
-		h1 {
-			margin-left: 0;
-		}
-	}
-	.colistes.seconde {
-		margin: 0 auto 35px auto !important;
-		width: auto !important;
-		float: none !important;
-		max-width: 500px;
-	}
-	.texte {
-		.infodiplo {
-			input[type=text] {
-				width: auto;
-			}
-		}
-	}
-	.suivre {
-		.infodiplo {
-			margin: -10px 0 15px;
-			input[type="text"] {
-				width: 100%;
-			}
-		}
-		.infodiplo.court {
-			.formulaire_spip {
-				.boutons {
-					display: block;
-					text-align: right;
-					margin: 10px 0 0 0;
-				}
-			}
-		}
-	}
-	.telecharger {
-		margin-left: 30px;
-		margin-right: 30px;
-		.bloc_vignette {
-			a {
-				margin: 0;
-			}
-		}
-		.bloc_vignette.deu {
-			a {
-				margin: 0;
-			}
-		}
-		.bloc_vignette.quat {
-			a {
-				margin: 0;
-			}
-		}
-	}
-	#telecharger {
-		h3 {
-			margin: 0px 0 20px 0;
-			display: block;
-		}
-		span {
-			display: none;
-		}
-		.reserve {
-			text-align: right;
-		}
-	}
-	#telecharger.abok {
-		h3 {
-			margin: 0px 0 20px 0;
-			display: block;
-		}
-	}
-	.formats {
-		float: none;
-		text-align: center;
-		display: block;
-	}
-	.plusdinfo {
-		float: none;
-		text-align: center;
-		display: block;
-		margin-top: 15px;
-	}
-	.bloc_vignette {
-		.bloc_formats {
-			margin: 0 15px 0 0;
-			text-align: center;
-		}
-	}
-	.bloc_vignette.deu {
-		.bloc_formats {
-			margin: 0 0 0 15px;
-		}
-	}
-	.bloc_vignette.quat {
-		.bloc_formats {
-			margin: 0 0 0 15px;
-		}
-	}
-	h2.avantbloc {
-		margin-left: 30px;
-		margin-right: 20px;
-	}
-	.abo_inst {
-		margin-left: 30px;
-		margin-right: 20px;
-	}
-	.infoboite {
-		#telecharger {
-			width: 429px;
-			margin-right: 15px;
-		}
-		#telecharger.abok {
-			h3 {
-				margin: 0 0 20px 0 !important;
-			}
-		}
-	}
-	.acquis {
-		#telecharger {
-			width: 429px;
-			margin-right: 15px;
-			margin-right: 0;
-			right: 20px;
-		}
-		#telecharger.abok {
-			h3 {
-				margin: 0 0 20px 0 !important;
-			}
-		}
-	}
-	.format.epub {
-		margin-left: 0 !important;
-	}
-}
-@media (max-width:715px) {
-	*[class*="page_connexion"] {
-		#contenu {
-			.page_panel {
-				margin: 0 20px;
-			}
-		}
-	}
-	.panel {
-		.formulaire_login {
-			h1 {
-				margin-left: 0;
-			}
-		}
-	}
-	.texte {
-		.infodiplo {
-			margin: 1.5em 30px 2em 30px;
-			font-size: 0.9em;
-		}
-		.infodiplo.court {
-			padding: 20px 15px 5px 15x;
-		}
-	}
-	.infodiplo {
-		.formulaire_spip {
-			li {
-				margin: 0 0 20px 0;
-			}
-		}
-	}
-}
-@media (max-width:480px) {
-	*[class*="page_connexion"] {
-		#contenu {
-			.page_panel {
-				margin: 0 15px;
-			}
-		}
-	}
-	.page_mon_compte {
-		#contenu {
-			.page_panel {
-				margin: 0 15px;
-			}
-		}
-	}
-	.connexion {
-		float: none !important;
-	}
-	.connexion.pasbouton {
-		float: none !important;
-	}
-	.connexion.bouton {
-		a {
-			display: block !important;
-			margin: 5px 0 0 0 !important;
-			border-radius: 0 !important;
-		}
-	}
-	a#session_mon_compte {
-		padding-bottom: 10px !important;
-	}
-	a#session_deconnexion {
-		padding-bottom: 10px !important;
-	}
-	.panel {
-		h1 {
-			font-size: 2em !important;
-			margin-left: 0px !important;
-		}
-	}
-	.formulaire_login {
-		input.text {
-			width: 100%;
-			box-sizing: border-box;
-			max-width: 100%;
-		}
-		input[type="text"] {
-			width: 100%;
-			box-sizing: border-box;
-			max-width: 100%;
-		}
-		input[type="password"] {
-			width: 100%;
-			box-sizing: border-box;
-			max-width: 100%;
-		}
-	}
-	.bloc-connexion {
-		.page_panel {
-			padding: 20px 15px 15px 15px;
-			overflow: hidden;
-		}
-	}
-	.texte {
-		.infodiplo {
-			margin: 1.5em 15px 2em 15px;
-			input[type="text"] {
-				width: 100%;
-			}
-			label {
-				margin-left: 0;
-			}
-			input[type=text] {
-				margin-left: 0;
-			}
-		}
-		.infodiplo.court {
-			padding: 15px 15px 5px 15x;
-		}
-	}
-	.infodiplo {
-		input[type="text"] {
-			width: 100%;
-		}
-		.formulaire_spip {
-			.boutons {
-				display: block;
-				text-align: right;
-				margin: 10px 0 0 0;
-			}
-			li {
-				margin: 0 0 15px 0;
-			}
-		}
-	}
-	.bloc_vignette {
-		.bloc_formats {
-			margin: 0;
-		}
-	}
-	.bloc_vignette.deu {
-		.bloc_formats {
-			margin: 0;
-		}
-	}
-	.bloc_vignette.quat {
-		.bloc_formats {
-			margin: 0;
-		}
-	}
-	.telecharger {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-	h2.avantbloc {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-	.abo_inst {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-	#paywall {
-		.abo_eclair {
-			padding: 20px 15px;
-		}
-		.abo_oui {
-			float: none;
-			padding: 20px 15px 20px 20px;
-			width: 100%;
-		}
-		.abo_non {
-			float: none;
-			padding: 20px 15px 20px 20px;
-			width: 100%;
-			border-left: 0;
-			padding: 20px 15px 20px 20px;
-		}
-	}
-	.infoboite {
-		#telecharger {
-			width: auto !important;
-			left: 0;
-			right: 0;
-			padding: 0 0 35px 0;
-			border-width: 0 0 1px 0;
-			margin: 0;
-		}
-		#telecharger.abok {
-			h3 {
-				margin: 0 0 20px 0 !important;
-			}
-		}
-	}
-	.acquis {
-		#telecharger {
-			width: auto !important;
-			left: 0;
-			right: 0;
-			padding: 0 0 35px 0;
-			border-width: 0 0 1px 0;
-			margin: 0;
-			padding: 15px 15px 35px;
-		}
-		#telecharger.abok {
-			h3 {
-				margin: 0 0 20px 0 !important;
-			}
-		}
-	}
-	.formats {
-		float: none !important;
-		font-size: 1.3em;
-		text-align: left !important;
-	}
-	.format {
-		width: auto !important;
-		margin: 0 0 10px 0 !important;
-		text-align: left !important;
-		a.bouton_telecharger {
-			margin: 0 15px 10px 0 !important;
-			float: left;
-		}
-	}
-}
-@media (max-width:755px) {
-	.telecharger {
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-}
-@media (-webkit-min-device-pixel-ratio:1.1) {
-	.pswp--svg {
-		.pswp__button {
-			background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-		}
-		.pswp__button--arrow--left {
-			&:before {
-				background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-			}
-			background: none;
-		}
-		.pswp__button--arrow--right {
-			&:before {
-				background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-			}
-			background: none;
-		}
-	}
-}
-@media (min-resolution:105dpi) {
-	.pswp--svg {
-		.pswp__button {
-			background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-		}
-		.pswp__button--arrow--left {
-			&:before {
-				background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-			}
-			background: none;
-		}
-		.pswp__button--arrow--right {
-			&:before {
-				background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-			}
-			background: none;
-		}
-	}
-}
-@media (min-resolution:1.1dppx) {
-	.pswp--svg {
-		.pswp__button {
-			background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-		}
-		.pswp__button--arrow--left {
-			&:before {
-				background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-			}
-			background: none;
-		}
-		.pswp__button--arrow--right {
-			&:before {
-				background-image: url("https://www.monde-diplomatique.fr/plugins/photoswipe/lib/photoswipe/default-skin/default-skin.svg");
-			}
-			background: none;
-		}
-	}
-}
-@media screen and (max-width:1024px) {
-	.pswp__preloader {
-		position: relative;
-		left: auto;
-		top: auto;
-		margin: 0;
-		float: right;
-	}
-}
-
