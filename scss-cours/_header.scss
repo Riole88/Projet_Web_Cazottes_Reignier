@@ -1,0 +1,336 @@
+@import 'variables';
+@import 'mixins-flex';
+@import 'mixins-grid';
+@import 'mixins-responsive';
+
+.preentete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-xs $spacing-md;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid $color-border;
+  font-size: 0.85em;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  
+  @include respond-to(desktop) {
+    padding-left: calc((100vw - #{$bp-large}) / 2);
+    padding-right: calc((100vw - #{$bp-large}) / 2);
+    max-width: $bp-large;
+    margin: 0 auto;
+  }
+  
+  .zizi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $spacing-sm;
+    flex: 0 0 auto;
+    
+    .unemensuel {
+      flex: 0 0 auto;
+      
+      a {
+        display: block;
+        
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+    }
+    
+    .dates_auteurs {
+      color: $color-text-light;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      
+      a {
+        color: $color-text-light;
+        text-decoration: none;
+        
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+  
+  .commerce {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $spacing-sm;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    
+    a {
+      color: $color-text-light;
+      text-decoration: none;
+      white-space: nowrap;
+      padding: $spacing-xs $spacing-sm;
+      font-size: 0.9em;
+      
+      &:hover {
+        color: $color-primary;
+      }
+    }
+    
+    .editions {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: $spacing-xs;
+      margin-right: $spacing-sm;
+      flex: 0 0 auto;
+      
+      span {
+        color: $color-text-light;
+      }
+      
+      a {
+        color: $color-text-light;
+        text-decoration: none;
+        
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+    
+    .connexion {
+      margin-left: $spacing-xs;
+      flex: 0 0 auto;
+    }
+  }
+  
+  @include respond-to-max(tablet) {
+    flex-direction: column;
+    gap: $spacing-xs;
+    align-items: flex-start;
+    padding: $spacing-sm $spacing-md;
+    
+    .zizi,
+    .commerce {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+}
+
+.labyrinthe {
+  display: grid;
+  grid-template-areas: "logo services";
+  grid-template-columns: auto 1fr;
+  gap: $spacing-lg;
+  padding: $spacing-lg $spacing-md;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  
+  .logo {
+    grid-area: logo;
+    flex: 0 0 auto;
+    max-width: 100%;
+    
+    .logodiplo {
+      display: flex;
+      align-items: center;
+      
+      a {
+        display: block;
+        
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+      
+      .respons {
+        display: none;
+        
+        @include respond-to-max(tablet) {
+          display: block;
+        }
+      }
+      
+      .une,
+      .pages {
+        @include respond-to-max(tablet) {
+          display: none;
+        }
+      }
+    }
+  }
+  
+  .services {
+    grid-area: services;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: $spacing-sm;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 100%;
+    
+    .bouton_menu {
+      display: none;
+      flex: 0 0 auto;
+      
+      @include respond-to-max(tablet) {
+        display: block;
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    
+    #search {
+      flex: 0 0 auto;
+      width: 100%;
+      max-width: 300px;
+      
+      .formulaire_recherche {
+        width: 100%;
+        max-width: 100%;
+        
+        form {
+          display: flex;
+          flex-direction: row;
+          gap: 0;
+          width: 100%;
+          max-width: 100%;
+          
+          > div {
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            width: 100%;
+            max-width: 100%;
+          }
+          
+          label {
+            display: none;
+          }
+          
+          input.text {
+            flex: 1 1 auto;
+            padding: $spacing-xs $spacing-sm;
+            border: 1px solid $color-border;
+            border-radius: 4px 0 0 4px;
+            font-size: 0.9em;
+            max-width: 100%;
+            min-width: 0;
+          }
+          
+          input.submit {
+            flex: 0 0 auto;
+            padding: $spacing-xs $spacing-md;
+            background-color: $color-primary;
+            color: $color-bg;
+            border: 1px solid $color-primary;
+            border-left: none;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            font-weight: 700;
+            white-space: nowrap;
+            
+            &:hover {
+              background-color: $color-secondary;
+            }
+          }
+        }
+      }
+    }
+    
+    .slogan {
+      font-family: $font-serif;
+      font-style: italic;
+      font-size: 0.85em;
+      color: $color-text-light;
+      text-align: right;
+      margin-top: $spacing-xs;
+      flex: 0 0 auto;
+      max-width: 100%;
+      word-wrap: break-word;
+    }
+  }
+  
+  @include respond-to-max(tablet) {
+    grid-template-areas:
+      "logo"
+      "services";
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+    padding: $spacing-md;
+    
+    .logo {
+      text-align: center;
+      width: 100%;
+      
+      .logodiplo {
+        justify-content: center;
+      }
+    }
+    
+    .services {
+      align-items: center;
+      width: 100%;
+      
+      #search {
+        max-width: 100%;
+      }
+      
+      .slogan {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-xs $spacing-md;
+  background-color: $color-primary;
+  color: $color-bg;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+  max-width: 100%;
+  
+  &:hover {
+    background-color: $color-secondary;
+  }
+  
+  &.gauche {
+    margin-right: $spacing-xs;
+  }
+  
+  &.droit {
+    margin-left: $spacing-xs;
+  }
+}
+
+.suivi {
+  text-decoration: none;
+  color: inherit;
+  
+  &:hover {
+    color: $color-primary;
+  }
+}

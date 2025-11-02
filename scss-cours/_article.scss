@@ -1,0 +1,197 @@
+@import 'variables';
+@import 'mixins-flex';
+@import 'mixins-grid';
+@import 'mixins-responsive';
+
+.contenu-principal {
+  @include grid(1, $gap: $spacing-lg);
+  
+  .cartouche {
+    @include grid(1, $gap: $spacing-md);
+    padding: $spacing-lg;
+    background-color: $color-bg;
+    border-radius: 4px;
+    
+    h1 {
+      color: $color-primary;
+      font-size: 2.5rem;
+      margin-bottom: $spacing-md;
+    }
+    
+    .chapo {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: $color-text-light;
+      margin-bottom: $spacing-md;
+    }
+  }
+  
+  .dates_auteurs {
+    @include flex-between(center, $spacing-sm);
+    padding: $spacing-sm 0;
+    border-top: 1px solid $color-border;
+    border-bottom: 1px solid $color-border;
+    
+    .auteurs {
+      font-weight: bold;
+      color: $color-primary;
+    }
+    
+    .partage {
+      @include flex-center(row, $spacing-xs);
+      padding: $spacing-xs;
+    }
+  }
+  
+  .texte {
+    @include grid(1, $gap: $spacing-lg);
+    padding: $spacing-lg;
+    background-color: $color-bg;
+    
+    .enapercu {
+      @include grid(1, $gap: $spacing-md);
+      
+      figure {
+        @include flex-column(center, $spacing-xs);
+        margin: $spacing-md 0;
+        
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        
+        figcaption {
+          font-size: 0.9rem;
+          color: $color-text-light;
+          text-align: center;
+          padding: $spacing-xs;
+        }
+      }
+      
+      p {
+        margin-bottom: $spacing-md;
+        line-height: 1.8;
+        
+        .mot-lettrine {
+          @include flex(row, nowrap, flex-start, baseline, $spacing-xs);
+          
+          .lettrine {
+            font-size: 4rem;
+            line-height: 1;
+            color: $color-primary;
+            margin-right: $spacing-xs;
+          }
+        }
+      }
+    }
+  }
+  
+  .notes {
+    @include grid-responsive-breakpoints(1, 1, 2, 2, $gap: $spacing-md);
+    padding: $spacing-lg;
+    background-color: $color-bg-light;
+    border-top: 2px solid $color-border;
+    
+    > div {
+      padding: $spacing-sm;
+      border-left: 3px solid $color-primary;
+      background-color: $color-bg;
+    }
+  }
+  
+  .lesauteurs {
+    @include flex-column(flex-start, $spacing-sm);
+    padding: $spacing-lg;
+    background-color: $color-bg;
+    border-top: 1px solid $color-border;
+    
+    .unauteur {
+      @include flex-column(flex-start, $spacing-xs);
+      
+      .nom {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: $color-primary;
+      }
+    }
+  }
+  
+  .tags {
+    @include flex-row-wrap(flex-start, center, $spacing-sm);
+    padding: $spacing-lg;
+    
+    .mots {
+      padding: $spacing-xs $spacing-md;
+      background-color: $color-bg-light;
+      border: 1px solid $color-border;
+      border-radius: 20px;
+      text-decoration: none;
+      color: $color-text;
+      transition: all 0.3s;
+      
+      &:hover {
+        background-color: $color-primary;
+        color: $color-bg;
+      }
+    }
+  }
+  
+  .promo_dispo_article {
+    @include grid(1, $gap: $spacing-md);
+    padding: $spacing-xl;
+    background-color: $color-bg-light;
+    text-align: center;
+    
+    .acceder_contenu {
+      @include grid-responsive-breakpoints(1, 2, 3, 3, $gap: $spacing-md);
+      
+      .abo_ouinon {
+        @include grid(1, $gap: $spacing-md);
+        
+        @include respond-to(tablet) {
+          @include grid-template(1fr 1fr, auto, $gap: $spacing-md);
+        }
+      }
+    }
+  }
+}
+
+#navigation {
+  @include grid(1, $gap: $spacing-lg);
+  
+  .promav {
+    @include flex-column(center, $spacing-md);
+    padding: $spacing-lg;
+    background-color: $color-bg;
+    border-radius: 4px;
+    
+    .couvmav {
+      @include flex-center(column, $spacing-xs);
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+  
+  .derniersmav {
+    @include grid-responsive(150px, $gap: $spacing-md);
+    padding: $spacing-lg;
+    background-color: $color-bg;
+    border-radius: 4px;
+    
+    .bloc_vignette {
+      @include flex-column(flex-start, $spacing-xs);
+      
+      .vignette {
+        @include flex-center(column);
+        
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

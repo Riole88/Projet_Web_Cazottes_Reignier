@@ -1,0 +1,83 @@
+@mixin grid($columns: $grid-columns, $gap: $grid-gap, $rows: auto) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  @if $rows != auto {
+    grid-template-rows: repeat($rows, auto);
+  }
+  gap: $gap;
+}
+
+@mixin grid-template($template-columns: 1fr, $template-rows: auto, $gap: $grid-gap) {
+  display: grid;
+  grid-template-columns: $template-columns;
+  grid-template-rows: $template-rows;
+  gap: $gap;
+}
+
+@mixin grid-responsive($min-width: 250px, $gap: $grid-gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($min-width, 1fr));
+  gap: $gap;
+}
+
+@mixin grid-autofill($min-width: 250px, $gap: $grid-gap) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($min-width, 1fr));
+  gap: $gap;
+}
+
+@mixin grid-item($col-start: auto, $col-end: auto, $row-start: auto, $row-end: auto) {
+  @if $col-start != auto {
+    grid-column-start: $col-start;
+  }
+  @if $col-end != auto {
+    grid-column-end: $col-end;
+  }
+  @if $col-start != auto and $col-end != auto {
+    grid-column: #{$col-start} / #{$col-end};
+  }
+  @if $row-start != auto {
+    grid-row-start: $row-start;
+  }
+  @if $row-end != auto {
+    grid-row-end: $row-end;
+  }
+  @if $row-start != auto and $row-end != auto {
+    grid-row: #{$row-start} / #{$row-end};
+  }
+}
+
+@mixin grid-area($area-name) {
+  grid-area: $area-name;
+}
+
+@mixin grid-areas($areas) {
+  grid-template-areas: $areas;
+}
+
+@mixin grid-responsive-breakpoints(
+  $mobile-columns: 1,
+  $tablet-columns: 2,
+  $desktop-columns: 3,
+  $large-columns: 4,
+  $gap: $grid-gap
+) {
+  display: grid;
+  gap: $gap;
+  
+  @media (min-width: $bp-mobile) {
+    grid-template-columns: repeat($mobile-columns, 1fr);
+  }
+  
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat($tablet-columns, 1fr);
+  }
+  
+  @media (min-width: $bp-desktop) {
+    grid-template-columns: repeat($desktop-columns, 1fr);
+  }
+  
+  @media (min-width: $bp-large) {
+    grid-template-columns: repeat($large-columns, 1fr);
+  }
+}

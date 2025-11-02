@@ -1,0 +1,26 @@
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (min-width: $bp-mobile) { @content; }
+  }
+  @else if $breakpoint == tablet {
+    @media (min-width: $bp-tablet) { @content; }
+  }
+  @else if $breakpoint == desktop {
+    @media (min-width: $bp-desktop) { @content; }
+  }
+  @else if $breakpoint == large {
+    @media (min-width: $bp-large) { @content; }
+  }
+}
+
+@mixin respond-to-max($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: $bp-mobile - 1px) { @content; }
+  }
+  @else if $breakpoint == tablet {
+    @media (max-width: $bp-tablet - 1px) { @content; }
+  }
+  @else if $breakpoint == desktop {
+    @media (max-width: $bp-desktop - 1px) { @content; }
+  }
+}
