@@ -156,7 +156,8 @@
       align-items: center;
       position: relative;
       
-      a.une {
+      a.une,
+      a.pages {
         display: block;
         
         @include respond-to-max(tablet) {
@@ -182,10 +183,6 @@
           height: auto;
           display: block;
         }
-      }
-      
-      a.pages {
-        display: none;
       }
     }
   }
@@ -352,5 +349,86 @@
   
   &:hover {
     color: $color-primary;
+  }
+}
+
+.ariane {
+  font-size: 1.4em;
+  position: relative;
+  padding: 10px 0 14px 35px;
+  color: #bbb;
+  overflow-x: hidden;
+  
+  a.absotrick {
+    display: block;
+    padding: 10px 0 12px 0;
+    color: transparent;
+    transition-duration: 0.3s;
+    transition-property: background;
+    position: absolute;
+    width: 100%;
+    max-width: 950px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  a.filin {
+    color: $color-text;
+    font-weight: 700;
+  }
+  
+  span {
+    color: $color-text;
+    font-weight: 400;
+  }
+  
+  a.secondfil {
+    color: $color-text;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    
+    .logo {
+      width: 45px;
+      margin: 0 15px 5px 0;
+      transform: rotate(-5deg);
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    
+    strong {
+      font-weight: 700;
+    }
+  }
+  
+  span.cep {
+    color: #bbb;
+  }
+  
+  span.cler {
+    color: #ddd;
+    line-height: 0.5em;
+    vertical-align: middle;
+  }
+  
+  .fil {
+    z-index: 2;
+    position: relative;
+  }
+  
+  @include respond-to-max(tablet) {
+    padding: 8px 0 12px 15px;
+    font-size: 1.2em;
+    
+    a.secondfil .logo {
+      width: 30px;
+      margin: 0 8px 5px 0;
+    }
   }
 }
