@@ -11,7 +11,7 @@ git clone https://github.com/Riole88/Projet_Web_Cazottes_Reignier
 cd Projet_Web_Cazottes_Reignier
 ```
 
-Le projet est maintenant prêt à être utilisé. Les fichiers HTML (`index.html` et `article.html`) peuvent être ouverts directement dans un navigateur.
+Le projet est maintenant prêt à être utilisé. Les fichiers HTML peuvent être ouverts directement dans un navigateur.
 
 ## Architecture des styles
 
@@ -77,57 +77,23 @@ Les fichiers SCSS sont compilés vers CSS dans le dossier `css/` :
 - `main.scss` : `css/styles.css` (pour la page d'accueil)
 - `article.scss` : `css/article.css` (pour la page article)
 
-## Basculer entre les deux systèmes
+## Utilisation des fichiers HTML
 
-Pour utiliser le système **scss-cours** (moderne avec Flexbox/CSS Grid), les fichiers HTML doivent référencer :
+Le projet contient des fichiers HTML séparés pour chaque système de styles, il n'est donc pas nécessaire de modifier les liens CSS :
 
-**Dans `index.html`** :
-```html
-<link rel="stylesheet" href="css/styles-cours.css" type="text/css">
-```
+### Système scss-cours (moderne)
 
-**Dans `article.html`** :
-```html
-<link rel="stylesheet" href="css/article-cours.css" type="text/css">
-```
+Pour utiliser le système **scss-cours** avec Flexbox et CSS Grid :
+- Ouvrir `index.html` (utilise `css/styles-cours.css`)
+- Ouvrir `article.html` (utilise `css/article-cours.css`)
 
-Pour utiliser le système **scss** (traditionnel), les fichiers HTML doivent référencer :
+### Système scss (traditionnel)
 
-**Dans `index.html`** :
-```html
-<link rel="stylesheet" href="css/styles.css" type="text/css">
-```
+Pour utiliser le système **scss** traditionnel :
+- Ouvrir `index 2.html` (utilise `css/styles.css`)
+- Ouvrir `article 2.html` (utilise `css/article.css`)
 
-**Dans `article.html`** :
-```html
-<link rel="stylesheet" href="css/article.css" type="text/css">
-```
-
-### Exemple de modification
-
-Pour passer du système scss-cours au système scss dans `article.html`, modifiez :
-
-**Avant** :
-```html
-<link rel="stylesheet" href="css/article-cours.css" type="text/css">
-```
-
-**Après** :
-```html
-<link rel="stylesheet" href="css/article.css" type="text/css">
-```
-
-Et dans `index.html`, modifiez :
-
-**Avant** :
-```html
-<link rel="stylesheet" href="css/styles-cours.css" type="text/css">
-```
-
-**Après** :
-```html
-<link rel="stylesheet" href="css/styles.css" type="text/css">
-```
+Chaque fichier HTML est déjà configuré avec le bon fichier CSS, il suffit d'ouvrir le fichier correspondant au système souhaité.
 
 ## Différences principales
 
