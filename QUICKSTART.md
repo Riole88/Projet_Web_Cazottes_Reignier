@@ -375,13 +375,3 @@ scss/
 ├── _components.scss   # Composants
 └── main.scss          # Point d'entrée
 ```
-
-### Bonnes pratiques
-
-- Utilisez des variables pour les valeurs répétées
-- Créez des mixins pour les patterns récurrents
-- Organisez en partials par fonctionnalité
-- Utilisez Grid pour les layouts, Flexbox pour les composants
-- Préférez `gap` plutôt que les marges pour l'espacement
-- Utilisez `fr` (fraction) plutôt que `%` dans Grid
-
