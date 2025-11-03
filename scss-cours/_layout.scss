@@ -23,6 +23,7 @@ body {
   max-width: 100vw;
 }
 
+// conteneur principal de la page avec structure en grille (header, main, footer)
 #page {
   min-height: 100vh;
   display: grid;
@@ -62,6 +63,7 @@ body {
   position: relative;
 }
 
+// zone principale du contenu
 #conteneur {
   grid-area: main;
   padding: 0;
@@ -70,6 +72,7 @@ body {
   overflow-x: hidden;
 }
 
+// contenu centré avec largeur maximale
 #contenu {
   display: grid;
   grid-template-columns: 1fr;

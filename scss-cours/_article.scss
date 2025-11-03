@@ -3,9 +3,11 @@
 @import 'mixins-grid';
 @import 'mixins-responsive';
 
+// contenu principal de l'article : cartouche, texte, notes, auteur
 .contenu-principal {
   @include grid(1, $gap: $spacing-lg);
   
+  // cartouche : titre, chapô et métadonnées
   .cartouche {
     @include grid(1, $gap: $spacing-md);
     padding: $spacing-lg;

@@ -3,6 +3,7 @@
 @import 'mixins-grid';
 @import 'mixins-responsive';
 
+// barre supérieure avec date du numéro et liens (abonnement, don, connexion)
 .preentete {
   display: flex;
   flex-direction: row;
@@ -128,6 +129,7 @@
   }
 }
 
+// header principal : logo et services (recherche, menu burger)
 .labyrinthe {
   display: grid;
   grid-template-areas: "logo services";
@@ -352,6 +354,7 @@
   }
 }
 
+// fil d'ariane (breadcrumb) avec lien vers le numéro
 .ariane {
   font-size: 1.4em;
   position: relative;
