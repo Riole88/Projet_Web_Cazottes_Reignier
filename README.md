@@ -2,6 +2,17 @@
 
 Ce projet contient deux systèmes de styles SCSS différents, permettant de basculer entre deux approches de développement.
 
+## Installation
+
+Pour cloner le projet depuis GitHub :
+
+```bash
+git clone https://github.com/Riole88/Projet_Web_Cazottes_Reignier
+cd Projet_Web_Cazottes_Reignier
+```
+
+Le projet est maintenant prêt à être utilisé. Les fichiers HTML (`index.html` et `article.html`) peuvent être ouverts directement dans un navigateur.
+
 ## Architecture des styles
 
 ### Système scss-cours (moderne)
